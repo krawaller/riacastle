@@ -240,7 +240,9 @@ var Brocco = (function() {
     ".erl":
       {"name" : "erlang", "symbol" : "%"},
     ".hrl":
-      {"name" : "erlang", "symbol" : "%"}
+      {"name" : "erlang", "symbol" : "%"},
+    ".jade": // hacked in by Krawaller
+      {"name" : "jade", "symbol" : "//-"}
   };
   
   // This is a stand-in for node's <code>[path][]</code> module.
