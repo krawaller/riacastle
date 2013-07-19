@@ -5,18 +5,19 @@ require.config({
 	paths: {
 		jQ: "../lib/jquery-v2.0.3",
 		cs: "../lib/require/load_coffeescript-v0.4.3",
-		underscore: "../lib/underscore-v1.5.1",
+		text: "../lib/require/load_text-v2.0.7",
+		json: "../lib/require/load_json-v0.3.1",
+		jade: "../lib/require/load_jade-v0.27.6",
+		pureunderscore: "../lib/underscore/underscore-v1.5.1",
 		purebackbone: "../lib/backbone/backbone-v1.0.0",
 		"bb-rel":"../lib/backbone/backbone-relational-v0.7.1",
 		"bb-loc":"../lib/backbone/backbone-localStorage-v1.1.6",
-		backbone: "../lib/backbone/backbone-module"
+		backbone: "../lib/backbone/backbone-module",
+		underscore: "../lib/underscore/underscore-module"
 	},
 	shim: {
-		underscore: {
-			/*init: function(){
-				console.log("......shimming underscore");
-				return this._.noConflict();
-			}*/
+		pureunderscore: {
+			exports: "_"
 		},
 		jQ: {
 			init: function(){
@@ -25,10 +26,10 @@ require.config({
 			}
 		},
 		purebackbone: {
-			deps: ["jQ","underscore"],
+			deps: ["jQ","pureunderscore"],
 			exports: "Backbone"
 		},
-		"bb-rel": ["purebackbone","underscore"],
-		"bb-loc": ["purebackbone","underscore"]
+		"bb-rel": ["purebackbone","pureunderscore"],
+		"bb-loc": ["purebackbone","pureunderscore"]
 	}
 });
