@@ -19,6 +19,9 @@ require.config({
 		pureunderscore: {
 			exports: "_"
 		},
+		underscore: {
+			exports: "_"
+		},
 		jQ: {
 			init: function(){
 				console.log("......shimming jQuery");
@@ -26,7 +29,7 @@ require.config({
 			}
 		},
 		purebackbone: {
-			deps: ["jQ","pureunderscore"],
+			deps: ["jQ","underscore"],
 			exports: "Backbone"
 		},
 		"bb-rel": ["purebackbone","pureunderscore"],

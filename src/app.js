@@ -1,7 +1,9 @@
-define(["backbone","text!../templates/test.html","json!../db/main","jade!../templates/testsomejade"],function(Backbone,sometext,somedata,somejade){
+define(["backbone","jQ","underscore","json!../json/graphics"],function(Backbone,$,_,graphics){
 	return {
 		start: function(){
-			console.log("...START CALL!",sometext,somedata,somejade({greet:"HELLO JADE!"}));
+			_.each(graphics.units.urls,function(url){
+				$("body").append("<img alt='"+url+"' title='"+url+"' src='"+graphics.units.pre+url+".png' />");
+			});
 		}
 	};
 });
