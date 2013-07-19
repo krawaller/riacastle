@@ -1,0 +1,1 @@
+This is a participant tracking site for the RIA JavaScript course at Linnaeus University. You can view the [site online here](http://krawaller.github.com/riacastle), or check the [main course page here](https://coursepress.lnu.se/kurs/ria-utveckling-med-javascript-ht13/).
