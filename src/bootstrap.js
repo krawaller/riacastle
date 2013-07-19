@@ -11,7 +11,7 @@ require.config({
 		pureunderscore: "../lib/underscore/underscore-v1.5.1",
 		purebackbone: "../lib/backbone/backbone-v1.0.0",
 		"bb-rel":"../lib/backbone/backbone-relational-v0.7.1",
-		"bb-loc":"../lib/backbone/backbone-localStorage-v1.1.6",
+		"bb-loc":"../lib/backbone/backbone-localstorage-v1.1.6",
 		backbone: "../lib/backbone/backbone-module",
 		underscore: "../lib/underscore/underscore-module"
 	},
