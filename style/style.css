@@ -1,8 +1,42 @@
 body {
-	background-color: #444;
+	background-color: #333;
+}
+
+.object {
+	display: block;
+	text-decoration: none;
+	background-color: #000;
 	font-family: 'Press Start 2P', cursive;
 	color: #fff;
-	font-family: 'Press Start 2P', cursive;
 	font-size: 11px;
 	text-shadow: 2px 2px #000;
+	float: left;
+	margin-right: 1em;
+	margin-top: 1em;
+	padding-right: 1em;
+	border-radius: 5px;
+}
+
+.object:hover {
+	background-color: #222;
+}
+
+.object > .name {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+.object > img {
+	height: 55px;
+	width: 55px;
+}
+
+/* modularise floats */
+.group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
 }

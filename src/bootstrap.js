@@ -8,19 +8,22 @@ require.config({
 		text: "../lib/require/load_text-v2.0.7",
 		json: "../lib/require/load_json-v0.3.1",
 		jade: "../lib/require/load_jade-v0.27.6",
+		mdown: "../lib/require/load_mdown-v0.1.1",
 		pureunderscore: "../lib/underscore/underscore-v1.5.1",
 		purebackbone: "../lib/backbone/backbone-v1.0.0",
 		"bb-rel":"../lib/backbone/backbone-relational-v0.7.1",
 		"bb-loc":"../lib/backbone/backbone-localstorage-v1.1.6",
 		backbone: "../lib/backbone/backbone-module",
-		underscore: "../lib/underscore/underscore-module"
+		underscore: "../lib/underscore/underscore-module",
+		showdown: "../lib/showdown/showdown",
+		markdownConverter: "../lib/showdown/showdown-module"
 	},
 	shim: {
 		pureunderscore: {
 			exports: "_"
 		},
-		underscore: {
-			exports: "_"
+		showdown: {
+			exports: "Showdown"
 		},
 		jQ: {
 			init: function(){
