@@ -1,4 +1,8 @@
-define(["jQ","underscore","src/pagesloader!","json!data/db.json","jade!templates/object"],function($,_,pages,db,objecttmpl){
+define([
+	"jquery","underscore","src/pagesloader!",
+	"json!data/db.json",
+	"jade!templates/object",
+	"src/views/graphicsoverview"],function($,_,pages,db,objecttmpl,Overview){
 	return {
 		start: function(){
 			console.log("APP.JS");
@@ -17,6 +21,7 @@ define(["jQ","underscore","src/pagesloader!","json!data/db.json","jade!templates
 			_.each(pages,function(val,key){
 				$("body").append("<p>"+val.html+"</p>");
 			});
+			$("body").append((new Overview({kinds:["attacks"]})).render().el);
 		}
 	};
 });

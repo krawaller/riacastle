@@ -4,7 +4,7 @@ define(["json!data/pages","underscore"],function(pages,_){
 			require(_.map(pages,function(page){ return "mdown!../markdown/"+page.markdown; }),function(){
 				var htmlarr = _.map(arguments,_.identity);
 				onLoad(_.reduce(_.keys(pages),function(memo,pageid,i){
-					return _.extend({},memo,_.object([pageid],[_.extend({},pages[pageid],{ html: htmlarr[i] })]));
+					return _.extend(memo,_.object([pageid],[_.extend(pages[pageid],{ html: htmlarr[i] })]));
 				},{}));
 			});
 		}
