@@ -1,8 +1,8 @@
 {
-	"moo": {
+	"test": {
 		"markdown": "test.md"
 	},
-	"WEEE": {
+	"pest": {
 		"markdown": "pest.md"
 	}
 }

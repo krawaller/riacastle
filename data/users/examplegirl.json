@@ -1,0 +1,11 @@
+{
+	"info": {
+		"example": true,
+		"name": "Example Girl",
+		"icon": "orcs$warlord"
+	},
+	"actions": [
+		{"type":"entered","when":"2013-07-21T14:25"},
+		{"type":"pooed","when":"2013-07-22T18:25"}
+	]
+}

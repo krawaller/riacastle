@@ -1,0 +1,11 @@
+{
+	"info": {
+		"example": true,
+		"name": "Mr Example",
+		"icon": "undead-skeletal$archer"
+	},
+	"actions": [
+		{"type":"entered","when":"2013-07-21T14:26"},
+		{"type":"moped around","when":"2013-07-28T04:25"}
+	]
+}

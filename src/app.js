@@ -1,12 +1,12 @@
 define([
-	"jquery","underscore","src/pagesloader!",
-	"json!data/db.json",
+	"jquery","underscore","data/loaders/pagesloader!",
+	"data/loaders/usersloader!users",
 	"jade!templates/object",
 	"src/views/graphicsoverview"],function($,_,pages,db,objecttmpl,Overview){
 	return {
 		start: function(){
-			console.log("APP.JS");
-			_.each(db.participants,function(def,id){
+			console.log("APP.JS",db);
+			/*_.each(db.participants,function(def,id){
 				$("body").append(objecttmpl({
 					iconsrc: "http://units.wesnoth.org/1.10/pics/core$images$units$"+def.info.icon+".png",
 					text: def.info.name,
@@ -21,7 +21,7 @@ define([
 			_.each(pages,function(val,key){
 				$("body").append("<p>"+val.html+"</p>");
 			});
-			$("body").append((new Overview({kinds:["attacks"]})).render().el);
+			$("body").append((new Overview({kinds:"units"})).render().el);*/
 		}
 	};
 });
