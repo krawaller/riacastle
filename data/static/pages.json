@@ -1,6 +1,6 @@
 {
 	"home": {
-		"route": "/",
+		"route": "home/",
 		"section": "home",
 		"content": ["text"]
 	},

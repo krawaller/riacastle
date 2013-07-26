@@ -1,23 +1,14 @@
-define([ "backbone","jquery","underscore"],function(Backbone,$,_){
+define(["backbone","src/router","src/mainview","src/navview","src/contentview","data/loaders/usersloader!","data/loaders/load!pages","src/views/graphicsoverview"],
+  function(Backbone,Router,MainView,NavView,ContentView,database,pages,g){
 	return {
 		start: function(){
-			console.log("APP.JS",db);
-			/*_.each(db.participants,function(def,id){
-				$("body").append(objecttmpl({
-					iconsrc: "http://units.wesnoth.org/1.10/pics/core$images$units$"+def.info.icon+".png",
-					text: def.info.name,
-					link: "user/"+id
-				}));
-			});
-			$("body").append(objecttmpl({
-				iconsrc: "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/scenery/dwarven-doors-closed.png",
-				text: "entered the castle",
-				link: "action/entered"
-			}));
-			_.each(pages,function(val,key){
-				$("body").append("<p>"+val.html+"</p>");
-			});
-			$("body").append((new Overview({kinds:"units"})).render().el);*/
+			var navView = new NavView(),
+				contentView = new ContentView();
+				mainView = new MainView({database:database,el:"#main",navView:navView,contentView:contentView}),
+				router = new Router({database:database,pages:pages,mainView:mainView});
+			mainView.render();
+			Backbone.history.start();
+			router.navigate("home/",{trigger:true});
 		}
 	};
 });
