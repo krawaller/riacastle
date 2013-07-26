@@ -11,7 +11,7 @@ define(["json!data/static/userlist","underscore"],function(users,_){
 				onLoad(_.reduce(users.allusers,function(memo,userid,i){
 					return {
 						// add the user to the `users` object, using id as key
-						users: _.extend(memo.users,_.object([userid],[jsonarr[i]])),
+						users: _.extend(_.object([userid],[jsonarr[i]]),memo.users),
 						// add the user´s actions to the `actions` array, augmenting each action with a `who` prop storing the userid
 						actions: memo.actions.concat(_.map(jsonarr[i].actions,function(o){return _.extend({who:userid},o);}))
 					};

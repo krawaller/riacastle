@@ -1,27 +1,16 @@
 define(["underscore"],function(_){
 	return {
 		load: function(resourceId,require,onLoad){
-			console.log("MOOOO",resourceId);
-			var d = {
-				users: {
-					source: "json!data/static/userlist",
-					part: "json!../data/users/",
-					list: function(main){ return main.allusers; }
-				},
-				pages: {
-					source: "json!data/static/pages",
-					part: "mdown!../../markdown/",
-					list: function(main){ return keys(main); }
-				}
-			}[resourceId];
-			console.log("D",d);
-			require([d.source],function(main){
-				require(_.map(d.list(main),function(partid){ console.log("WOO",partid); return d.part+partid; }),function(){
-					var parts = _.map(arguments,_.identity);
-					console.log("LALALALLALA",parts);
-					onLoad(_.reduce(d.source.allusers,function(memo,partid,i){
-						return _.extend(memo,_.object([partid],[parts[i]]));
-					},{}));
+			// load data/static/[resourceId] which is expected to contain a master object will id keys
+			require(["json!data/static/"+resourceId],function(main){
+				var ids = _.keys(main), paths = _.map(ids,function(id){ return "mdown!../../markdown/"+resourceId+"/"+id+".md";});
+				// now require markdown/[resourceId]/[objId] for each key in master object
+				require(paths,function(){
+					// build an object containing the texts stored by id
+					var args = arguments, markdownsById = _.reduce(ids,function(memo,id,i){ return _.extend(memo,_.object([id],[{markdown:args[i]}])); },{});
+					console.log("MARK",markdownsById)
+					// return with the merger of the master object and the markdowns
+					onLoad(_.mapObj(main,function(o,id){return _.extend(o,markdownsById[id]);}));
 				});
 			});
 		}

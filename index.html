@@ -8,11 +8,17 @@
 	<body>
 		<a class="sidelink" href="docs/index.html">documentation</a>
 		<a class="sidelink" href="test/index.html">test suite</a>
-		<p>Woop!</p>
+		<div><div id="main"></div></div>
 		<script data-main="bootstrap.js" type="text/javascript" src="lib/require/require-v2.1.8.js"></script>
 		<script type="text/javascript">
-			require(["src/app"],function(App){
-				App.start();
+			require(["src/router","src/mainview","src/navview","data/loaders/usersloader!","data/loaders/loader!equipment","src/views/graphicsoverview"],
+			  function(Router,MainView,NavView,database,pages,g){
+				var navView = new NavView(),
+					mainView = new MainView({database:database,el:"#main",navView:navView}),
+					router = new Router({database:database,pages:pages,mainView:mainView});
+				mainView.render();
+				console.log(pages);
+				//$("#main").append((new g).render().el);
 			});
 		</script>
 	</body>

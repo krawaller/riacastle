@@ -1,8 +1,12 @@
 {
-	"test": {
-		"markdown": "test.md"
+	"home": {
+		"route": "/",
+		"section": "home",
+		"content": ["text"]
 	},
-	"pest": {
-		"markdown": "pest.md"
+	"throneroom": {
+		"route":"throneroom/",
+		"section":"throneroom",
+		"content": ["text"]
 	}
 }

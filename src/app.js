@@ -1,8 +1,4 @@
-define([
-	"jquery","underscore","data/loaders/pagesloader!",
-	"data/loaders/usersloader!users",
-	"jade!templates/object",
-	"src/views/graphicsoverview"],function($,_,pages,db,objecttmpl,Overview){
+define([ "backbone","jquery","underscore"],function(Backbone,$,_){
 	return {
 		start: function(){
 			console.log("APP.JS",db);
