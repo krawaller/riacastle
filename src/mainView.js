@@ -1,4 +1,4 @@
-define([ "backbone","jquery","underscore","jade!../templates/main"],function(Backbone,$,_,template){
+define([ "backbone","jquery","underscore","jade!templates/main"],function(Backbone,$,_,template){
 	return Backbone.View.extend({
 		template: template,
 		events: { 'click a[href^="nav-"]': "appLink" },

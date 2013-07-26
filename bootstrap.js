@@ -9,6 +9,9 @@ require.config({
 		json: "lib/require/load_json-v0.3.1",
 		jade: "lib/require/load_jade-v0.27.6",
 		mdown: "lib/require/load_mdown-v0.1.1",
+		// app directories
+		markdown: "markdown",
+		templates: "templates",
 		// external dependencies
 		jquery: "lib/jquery/jquery-v2.0.3",
 		pureunderscore: "lib/underscore/underscore-v1.5.1",
