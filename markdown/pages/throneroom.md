@@ -1,1 +1,1 @@
-Throneroom schromeroom ffs
+You enter the throne room where the whole guild is gathered. Should you wish to speak to someone, merely approach them by clicking the portrait below!

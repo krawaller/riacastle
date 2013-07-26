@@ -2,6 +2,14 @@ body {
 	background-color: #333;
 }
 
+.horisontallist {
+	list-style: none;
+}
+
+.horisontallist > li {
+	float: left;
+}
+
 .object {
 	display: block;
 	float: left;
@@ -36,7 +44,7 @@ body {
 }
 
 /* modularise floats */
-.group:after {
+.group:after, .horisontallist:after {
 	content: ".";
 	display: block;
 	height: 0;

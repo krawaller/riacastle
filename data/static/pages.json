@@ -1,12 +1,17 @@
 {
 	"home": {
-		"route": "home/",
-		"section": "home",
-		"content": ["text"]
+		"route": "",
+		"section": "home"
 	},
 	"throneroom": {
-		"route":"throneroom/",
+		"route":"throneroom",
 		"section":"throneroom",
-		"content": ["text"]
+		"content": [{"type":"text"},{"type":"userlist"}]
+	},
+	"quarter": {
+		"nomarkdown":true,
+		"route":"throneroom/:id",
+		"section":"throneroom",
+		"content": [{"type":"user"}]
 	}
 }
