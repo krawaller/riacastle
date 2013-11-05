@@ -9,6 +9,8 @@ require.config({
 		json: "lib/require/load_json-v0.3.1",
 		jade: "lib/require/load_jade-v0.27.6",
 		mdown: "lib/require/load_mdown-v0.1.1",
+		withresources: "data/loaders/withresources",
+		usersloader: "data/loaders/usersloader",
 		// app directories
 		markdown: "markdown",
 		templates: "templates",

@@ -6,12 +6,13 @@
 	"throneroom": {
 		"route":"throneroom",
 		"section":"throneroom",
-		"content": [{"type":"text"},{"type":"userlist"}]
+		"users":"all",
+		"commands":{"type":"entered"}
 	},
 	"quarter": {
-		"nomarkdown":true,
 		"route":"throneroom/:id",
 		"section":"throneroom",
-		"content": [{"type":"user"}]
+		"actions":[{"who":"ID"},{"targetuser":"ID"}],
+		"nomarkdown":true
 	}
 }

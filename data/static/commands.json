@@ -1,8 +1,9 @@
 {
 	"entered": {
 		"icon": {
-			"category": "scenery"
+			"category": "scenery",
 			"id": "dwarven-doors-closed"
-		}
+		},
+		"whocoin": 1
 	}
 }

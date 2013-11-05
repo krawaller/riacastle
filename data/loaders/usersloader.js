@@ -1,6 +1,7 @@
-// This module first loads a masterlist of all users (`userlist.allusers`), and then loads a json file for each user.
+// This module first loads a masterlist of all users (`users.allusers`), and then loads a json file for each user.
 // The users' individual `actions` array are also baked together into a master actions array.
-
+// Also we're given an array with all used icons
+// This module is used in `data.js`.
 define(["json!data/static/userlist","underscore"],function(users,_){
 	return {
 		load: function(resourceId,require,onLoad){
@@ -9,13 +10,17 @@ define(["json!data/static/userlist","underscore"],function(users,_){
 				var jsonarr = _.map(arguments,_.identity);
 				// make the module return the result of a `reduce` call that bakes all individual files together into a single database object
 				onLoad(_.reduce(users.allusers,function(memo,userid,i){
-					return {
-						// add the user to the `users` object, using id as key
-						users: _.extend(_.object([userid],[jsonarr[i]]),memo.users),
+					ret = {
+						// add the user to the `users` object, using id as key. also add id to the info prop of each user
+						users: _.extend(_.object([userid],[_.extendChild(jsonarr[i],"info",{id:userid})]),memo.users),
 						// add the user´s actions to the `actions` array, augmenting each action with a `who` prop storing the userid
-						actions: memo.actions.concat(_.map(jsonarr[i].actions,function(o){return _.extend({who:userid},o);}))
+						actions: memo.actions.concat(_.map(jsonarr[i].actions,function(o){return _.extend({who:userid},o);})),
+						// add the icon to the `icons` object
+						icons: memo.icons.concat(jsonarr[i].info.icon)
 					};
-				},{users:{},actions:[]}));
+					console.log(ret);
+					return ret;
+				},{users:{},actions:[],icons:[]}));
 			});
 		}
 	};

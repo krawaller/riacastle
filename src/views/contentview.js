@@ -30,29 +30,6 @@ define([ "backbone","jquery","underscore","jade!templates/object"],function(Back
 				link: "#throneroom/"+subid,
 				text: userdef.info.name
 			});
-		},
-		// receives a content definition, returns the html that should be inserted
-		renderPart: function(pagedef,subid,contentdef){
-			switch(contentdef.type){
-				case "user":
-					var userdef = this.options.database.users[subid];
-					return this.objtmpl({
-						icon: userdef.info.icon,
-						link: "#throneroom/"+subid,
-						text: userdef.info.name
-					});
-				case "unitlist":
-					console.log("GONNA REDUCE;",this.options.database);
-					return _.reduce(this.options.database.users,function(memo,userdef,userid){
-						console.log("reducing",userid,userdef,memo);
-						return memo+"<li>"+this.objtmpl({
-							icon: userdef.info.icon,
-							link: "#throneroom/"+userid,
-							text: userdef.info.name
-						})+"</li>";
-					},"<ul class='horisontallist'>",this)+"</ul>";
-				default: return pagedef.markdown;
-			}
 		}
 	});
 });
