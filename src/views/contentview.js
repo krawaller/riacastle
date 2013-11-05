@@ -33,6 +33,14 @@ define([ "backbone","jquery","underscore","jade!templates/object"],function(Back
 				link: "#throneroom/"+subid,
 				text: userdef.info.name
 			});
+		},
+		rendercloseup: function(pagedef,subid,contentdef){
+			var dataobj;
+			switch(contentdef.from){
+				case "user": dataobj = this.options.data.users[subid]; break;
+			}
+			console.log("MODAMDOASPDAS",contentdef);
+			return contentdef.template(dataobj);
 		}
 	});
 });

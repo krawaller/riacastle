@@ -1,3 +1,5 @@
+console.log("...LOADING usersloader");
+
 // This module first loads a masterlist of all users (`users.allusers`), and then loads a json file for each user.
 // The users' individual `actions` array are also baked together into a master actions array.
 // Also we're given an array with all used icons
@@ -9,6 +11,7 @@ define(["json!data/static/userlist","underscore"],function(users,_){
 				// capture the arguments object containing the individual data files into a closure variable, for access in the `reduce` iterator
 				var jsonarr = _.map(arguments,_.identity);
 				// make the module return the result of a `reduce` call that bakes all individual files together into a single database object
+				console.log(".....serving up result from usersloader");
 				onLoad(_.reduce(users.allusers,function(memo,userid,i){
 					ret = {
 						// add the user to the `users` object, using id as key. also add id to the info prop of each user

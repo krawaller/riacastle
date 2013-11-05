@@ -7,10 +7,13 @@ define(["withresources!commands","withresources!equipment","withresources!pages"
 	return {
 		commands: commands,
 		equipment: equipment,
+		actions: users.actions,
+		icons: users.icons,
 		// build upp unified "content" array for each page
 		pages: _.mapObj(pages,function(page,pageid){
 			arr = [];
 			if (page.markdown) { arr.push({type:"text"}); }
+			if (page.closeup) { arr.push({type:"closeup",template:page.jade,from:page.closeup}); }
 			if (page.actionlist) { arr.push({type:"actionlist",filter:page.actionlist}); }
 			if (page.userlist) { arr.push({type:"userlist",filter:page.userlist}); }
 			return _.extend(page,{content:arr});
@@ -25,7 +28,6 @@ define(["withresources!commands","withresources!equipment","withresources!pages"
 				},0)
 			});
 		}),
-		actions: users.actions,
 		// build resources from all resource-adding actions
 		resources: _.reduce(users.actions,function(memo,action){
 			return action.type !== "addresource" ? memo : _.extendChild(memo,action.id,_.pick(action,["name","link","id"]));

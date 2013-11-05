@@ -11,7 +11,7 @@ define(["underscore"],function(_){
 					reqs = _.reduce(ids,function(memo,id){
 						var def = main[id], add = [];
 						if (!def.nomarkdown){ add.push({id:id,what:"markdown",path:"mdown!markdown/"+resourceId+"/"+id+".md"}); }
-						if (def.template){ add.push({id:id,what:"jade",path:"jade!templates/"+id}); }
+						if (def.closeup){ add.push({id:id,what:"jade",path:"jade!templates/"+def.closeup}); }
 						return memo.concat(add);
 					},[],this);
 				// now require markdown/[resourceId]/[objId] for each key in master object

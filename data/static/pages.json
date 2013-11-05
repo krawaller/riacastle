@@ -14,6 +14,6 @@
 		"section":"throneroom",
 		"actionlist":[{"who":"ID"},{"target":"ID"}],
 		"nomarkdown":true,
-		"template":true
+		"closeup": "user"
 	}
 }
