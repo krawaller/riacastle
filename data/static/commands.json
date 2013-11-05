@@ -5,5 +5,8 @@
 			"id": "dwarven-doors-closed"
 		},
 		"whocoin": 1
+	},
+	"addresource": {
+		"whocoin": 3
 	}
 }

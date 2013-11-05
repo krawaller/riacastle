@@ -5,6 +5,7 @@
 		"icon": "undead-skeletal$archer"
 	},
 	"actions": [
-		{"type":"entered","when":"2013-07-21T14:26","whobonus":5}
+		{"type":"entered","when":"2013-07-21T14:26","whobonus":5},
+		{"type":"addresource","id":"functionaljs","name":"Functional JS","link":"http://blog.fogus.me/2013/03/20/fun-js/","whobonus":2}
 	]
 }

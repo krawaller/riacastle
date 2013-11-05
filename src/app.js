@@ -8,7 +8,7 @@ define(["backbone","src/router","src/views/mainview","src/views/navview","src/vi
 				router = new Router({data:data,mainView:mainView});
 			mainView.render();
 			Backbone.history.start();
-			console.log("WOOO",data)
+			console.log("WOOO",data);
 		}
 	};
 });

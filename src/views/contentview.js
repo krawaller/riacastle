@@ -5,7 +5,7 @@ define([ "backbone","jquery","underscore","jade!templates/object"],function(Back
 		render: function(pageid,pagedef,subid){
 			this.$el.empty();
 			// process all content defs and append each result
-			_.each(_.ensureArray(pagedef.content,{type:"text"}),_.compose(_.bind(this.$el.append,this.$el),_.partial(this.renderRouter,pagedef,subid)),this);
+			_.each(pagedef.content,_.compose(_.bind(this.$el.append,this.$el),_.partial(this.renderRouter,pagedef,subid)),this);
 			return this;
 		},
 		// merely routs the call from render to the correct function
@@ -14,8 +14,8 @@ define([ "backbone","jquery","underscore","jade!templates/object"],function(Back
 		},
 		rendertext: function(pagedef,subid,contentdef){ return pagedef.markdown; },
 		renderuserlist: function(pagedef,subid,contentdef){
-			return _.reduce(this.options.database.users,function(memo,userdef,userid){
-				console.log("reducing",userid,userdef,memo);
+			return _.reduce(this.options.data.users,function(memo,userdef,userid){
+				//console.log("reducing",userid,userdef,memo);
 				return memo+"<li>"+this.objtmpl({
 					icon: userdef.info.icon,
 					link: "#throneroom/"+userid,
@@ -23,8 +23,11 @@ define([ "backbone","jquery","underscore","jade!templates/object"],function(Back
 				})+"</li>";
 			},"<ul class='horisontallist'>",this)+"</ul>";
 		},
+		renderactionlist: function(pagedef,subid,contentdef){
+			return "<b>ACTIONLIST</b>";
+		},
 		renderuser: function(pagedef,subid,contentdef){
-			var userdef = this.options.database.users[subid];
+			var userdef = this.options.data.users[subid];
 			return this.objtmpl({
 				icon: userdef.info.icon,
 				link: "#throneroom/"+subid,
