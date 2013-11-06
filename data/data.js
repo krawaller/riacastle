@@ -2,13 +2,14 @@
 // Is also responsible for calculating the scores of the users, since we now have access to users, actions and commands.
 // And we fix the pages so they all have a nice content array
 // Used in `app.js`.
-define(["withresources!commands","withresources!equipment","withresources!pages","usersloader!"],
-  function(commands,equipment,pages,users,query){
+define(["withresources!commands","withresources!equipment","withresources!pages","withresources!phases","usersloader!"],
+  function(commands,equipment,pages,phases,users,query){
 	return {
 		commands: commands,
-		// add the id to each item
-		equipment: _.mapObj(equipment,function(equip,id){ return _.extend(equip,{id:id})}),
+		phases: phases,
 		icons: users.icons,
+		// add the id to each item
+		equipment: _.mapObj(equipment,function(equip,id){ return _.extend(equip,{id:id}); }),
 		// augment action objects with data from corresponding command
 		actions: _.mapObj(users.actions,function(action,actionid){
 			return _.extend(action,_.pick(commands[action.type],["text","icon"]));
@@ -17,10 +18,10 @@ define(["withresources!commands","withresources!equipment","withresources!pages"
 		pages: _.mapObj(pages,function(page,pageid){
 			arr = [];
 			if (page.markdown) { arr.push({type:"text",markdown:page.markdown}); }
-			if (page.closeuptext) { arr.push({type:"text",from:page.closeuptext}) }
+			if (page.closeuptext) { arr.push({type:"text",from:page.closeuptext}); }
 			if (page.closeup) { arr.push({type:"closeup",template:page.jade,from:page.closeup}); }
-			_.each(["users","actions","equipment"],function(type){
-				var links = {users:"throneroom",equipment:"armoury"};
+			_.each(["users","equipment","resources","phases","actions"],function(type){
+				var links = {users:"barracks",equipment:"armoury",resources:"library",phases:"throneroom"};
 				if (page[type+"list"]) {
 					arr.push({type:"list",from:type,filter:page[type+"list"],link:links[type]});
 				}

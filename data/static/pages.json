@@ -6,12 +6,24 @@
 	"throneroom": {
 		"route":"throneroom",
 		"section":"throneroom",
+		"phaseslist":"all"
+	},
+	"phase": {
+		"route":"throneroom/:id",
+		"section":"throneroom",
+		"actionslist":[{"matchesid":"phase"}],
+		"closeuptext": "phases",
+		"nomarkdown":true
+	},
+	"barracks": {
+		"route":"barracks",
+		"section":"barracks",
 		"userslist":"all",
 		"actionslist":{"type":"enter"}
 	},
 	"quarter": {
-		"route":"throneroom/:id",
-		"section":"throneroom",
+		"route":"barracks/:id",
+		"section":"barracks",
 		"actionslist":[{"matchesid":"who"},{"matchesid":"target"}],
 		"nomarkdown":true,
 		"closeup": "users"
@@ -19,13 +31,27 @@
 	"armoury": {
 		"route":"armoury",
 		"section":"armoury",
-		"equipmentlist":"all"
+		"equipmentlist":"all",
+		"actionslist":[{"notempty":"gear"}]
 	},
 	"weapon": {
 		"route":"armoury/:id",
 		"section":"armoury",
-		"actionslist":[{"matchesid":"item"}],
+		"actionslist":[{"matchesid":"gear"}],
 		"closeuptext": "equipment",
 		"nomarkdown":true
+	},
+	"library": {
+		"route":"library",
+		"section":"library",
+		"resourceslist":"all",
+		"actionslist":[{"notempty":"resource"},{"type":"writes"}]
+	},
+	"resource": {
+		"route":"library/:id",
+		"section":"library",
+		"closeup":"resources",
+		"nomarkdown":true,
+		"actionslist":[{"matchesid":"id"}]
 	}
 }

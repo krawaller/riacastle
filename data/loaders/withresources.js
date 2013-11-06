@@ -18,7 +18,7 @@ define(["underscore"],function(_){
 				require(_.pluck(reqs,"path"),function(){
 					// build an object containing the texts stored by id (and also with id as prop as a bonus)
 					var args = arguments, resourcesById = _.reduce(reqs,function(memo,req,i){
-						return _.extendChild(memo,req.id,_.object([req.what],[args[i]]));
+						return _.extendChild(memo,req.id,_.object(["id",req.what],[req.id,args[i]]));
 					},{});
 					// return with the merger of the master object and the markdowns
 					onLoad(_.mapObj(main,function(o,id){return _.extend(o,resourcesById[id]);}));
