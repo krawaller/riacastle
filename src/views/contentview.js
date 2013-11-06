@@ -17,9 +17,9 @@ define([ "backbone","jquery","underscore","jade!templates/object"],function(Back
 			return _.reduce(this.options.data.users,function(memo,userdef,userid){
 				//console.log("reducing",userid,userdef,memo);
 				return memo+"<li>"+this.objtmpl({
-					icon: userdef.info.icon,
+					icon: userdef.icon,
 					link: "#throneroom/"+userid,
-					text: userdef.info.name
+					text: userdef.name
 				})+"</li>";
 			},"<ul class='horisontallist'>",this)+"</ul>";
 		},
@@ -29,9 +29,9 @@ define([ "backbone","jquery","underscore","jade!templates/object"],function(Back
 		renderuser: function(pagedef,subid,contentdef){
 			var userdef = this.options.data.users[subid];
 			return this.objtmpl({
-				icon: userdef.info.icon,
+				icon: userdef.icon,
 				link: "#throneroom/"+subid,
-				text: userdef.info.name
+				text: userdef.name
 			});
 		},
 		rendercloseup: function(pagedef,subid,contentdef){

@@ -14,12 +14,12 @@ define(["json!data/static/userlist","underscore"],function(users,_){
 				console.log(".....serving up result from usersloader");
 				onLoad(_.reduce(users.allusers,function(memo,userid,i){
 					ret = {
-						// add the user to the `users` object, using id as key. also add id to the info prop of each user
-						users: _.extend(_.object([userid],[_.extendChild(jsonarr[i],"info",{id:userid})]),memo.users),
+						// add the user to the `users` object, using id as key. also add id to each user
+						users: _.extend(_.object([userid],[_.extend(jsonarr[i],{id:userid})]),memo.users),
 						// add the user´s actions to the `actions` array, augmenting each action with a `who` prop storing the userid
 						actions: memo.actions.concat(_.map(jsonarr[i].actions,function(o){return _.extend({who:userid},o);})),
 						// add the icon to the `icons` object
-						icons: memo.icons.concat(jsonarr[i].info.icon)
+						icons: memo.icons.concat(jsonarr[i].icon)
 					};
 					console.log(ret);
 					return ret;

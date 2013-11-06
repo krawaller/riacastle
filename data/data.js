@@ -20,7 +20,7 @@ define(["withresources!commands","withresources!equipment","withresources!pages"
 		}),
 		// calculate the score for each user
 		users: _.mapObj(users.users,function(user,userid){
-			return _.extendChild(user,"info",{
+			return _.extend(user,{
 				score: _.reduce(users.actions,function(memo,action){
 					whoscore = (action.who === userid ? commands[action.type].whocoin + (action.whobonus||0):0);
 					targetscore = (action.target === userid ? commands[action.type].targetcoin + (action.targetbonus||0):0);
