@@ -20,12 +20,14 @@ define(["withresources!commands","withresources!equipment","withresources!pages"
 			if (page.markdown) { arr.push({type:"text",markdown:page.markdown}); }
 			if (page.closeuptext) { arr.push({type:"text",from:page.closeuptext}); }
 			if (page.closeup) { arr.push({type:"closeup",template:page.jade,from:page.closeup}); }
-			_.each(["users","equipment","resources","phases","actions"],function(type){
+			if (page.nav) { arr.push({type:"navlist",from:page.nav}); }
+			if (page.actions) { arr.push({type:"actions",filter:page.actions}); }
+			/*_.each(["users","equipment","resources","phases","actions"],function(type){
 				var links = {users:"barracks",equipment:"armoury",resources:"library",phases:"throneroom"};
 				if (page[type+"list"]) {
 					arr.push({type:"list",from:type,filter:page[type+"list"],link:links[type]});
 				}
-			});
+			});*/
 			return _.extend(page,{content:arr});
 		}),
 		// calculate the score for each user

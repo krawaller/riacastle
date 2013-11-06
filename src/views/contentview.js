@@ -14,13 +14,12 @@ define([ "backbone","jquery","underscore","data/query","jade!templates/object"],
 			return this["render"+contentdef.type](pagedef,subid,contentdef);
 		},
 		rendertext: function(pagedef,subid,contentdef){ return contentdef.markdown || this.options.data[contentdef.from][subid].markdown; },
-		renderlist: function(pagedef,subid,contentdef){
-			console.log("GONNA RENDER LIST",contentdef.from,this.options.data[contentdef.from]);
-			return _.reduce(query.filter(this.options.data[contentdef.from],contentdef.filter,subid),function(memo,objdef,objid){
-				console.log("reducing",objid,objdef,memo);
+		rendernavlist: function(pagedef,subid,contentdef){
+			var link = {users:"barracks",equipment:"armoury",resources:"library",phases:"throneroom"}[contentdef.from];
+			return _.reduce(this.options.data[contentdef.from],function(memo,objdef,objid){
 				return memo+"<li>"+this.objtmpl({
 					icon: objdef.icon,
-					link: "#"+contentdef.link+"/"+objdef.id,
+					link: "#"+link+"/"+objdef.id,
 					text: objdef.name
 				})+"</li>";
 			},"<ul class='horisontallist'>",this)+"</ul>";
@@ -28,6 +27,16 @@ define([ "backbone","jquery","underscore","data/query","jade!templates/object"],
 		rendercloseup: function(pagedef,subid,contentdef){
 			console.log("CLOSEUP",contentdef.from,subid,this.options.data[contentdef.from][subid]);
 			return contentdef.template(this.options.data[contentdef.from][subid]);
+		},
+		renderactions: function(pagedef,subid,contentdef){
+			return _.reduce(query.filter(this.options.data.actions,contentdef.filter,subid),function(memo,objdef,objid){
+				console.log("reducing",objid,objdef,memo);
+				return memo+"<li>"+this.objtmpl({
+					icon: objdef.icon,
+					link: "#/"+objdef.id,
+					text: objdef.name
+				})+"</li>";
+			},"<ul>",this)+"</ul>";
 		}
 	});
 });

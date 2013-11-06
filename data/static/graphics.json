@@ -611,6 +611,6 @@
     },
     "misc": {
     	"pre": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/misc/",
-    	"urls": ["laurel"]
+    	"urls": ["laurel","schedule-dawn","schedule-morning","schedule-afternoon","schedule-dusk","schedule-firstwatch","schedule-secondwatch"]
     }
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>RIA-deltagare ht 2013</title>
+		<title>Graphics</title>
 		<link rel="stylesheet" href="style/style.css"></link>
 		<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
 	</head>
@@ -12,7 +12,7 @@
 		<div><div id="main"></div></div>
 		<script data-main="bootstrap.js" type="text/javascript" src="lib/require/require-v2.1.8.js"></script>
 		<script type="text/javascript">
-			require(["src/app"],function(App){ App.start(); });
+			require(["src/views/graphicsoverview"],function(View){ $("#main").append((new View({kinds:["units","items","icons","scenery","attacks","misc"]})).render().el); });
 		</script>
 	</body>
 </html>
