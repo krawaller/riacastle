@@ -1,12 +1,18 @@
 {
-	"entered": {
+	"enter": {
 		"icon": {
 			"category": "scenery",
 			"id": "dwarven-doors-closed"
 		},
-		"whocoin": 1
+		"whocoin": 1,
+		"name": "entered"
 	},
 	"addresource": {
-		"whocoin": 3
+		"whocoin": 3,
+		"name":"added resource"
+	},
+	"yearn": {
+		"whocoin": 2,
+		"name":"yearns for"
 	}
 }

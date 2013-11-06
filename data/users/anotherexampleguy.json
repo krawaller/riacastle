@@ -3,6 +3,6 @@
 	"name": "Another Example Guy",
 	"icon": "human-loyalists$masterbowman",
 	"actions": [
-		{"type":"entered","when":"2013-07-19T23:01"}
+		{"type":"enter","when":"2013-07-19T23:01"}
 	]
 }

@@ -1,10 +1,11 @@
-define([ "backbone","jquery","underscore","jade!templates/object"],function(Backbone,$,_,objtmpl){
+define([ "backbone","jquery","underscore","data/query","jade!templates/object"],function(Backbone,$,_,query,objtmpl){
 	return Backbone.View.extend({
 		objtmpl: objtmpl,
 		// empty the element and append the results of each processed content definition
 		render: function(pageid,pagedef,subid){
 			this.$el.empty();
 			// process all content defs and append each result
+			console.log("CONTENT",pagedef.content);
 			_.each(pagedef.content,_.compose(_.bind(this.$el.append,this.$el),_.partial(this.renderRouter,pagedef,subid)),this);
 			return this;
 		},
@@ -12,35 +13,21 @@ define([ "backbone","jquery","underscore","jade!templates/object"],function(Back
 		renderRouter: function(pagedef,subid,contentdef){
 			return this["render"+contentdef.type](pagedef,subid,contentdef);
 		},
-		rendertext: function(pagedef,subid,contentdef){ return pagedef.markdown; },
-		renderuserlist: function(pagedef,subid,contentdef){
-			return _.reduce(this.options.data.users,function(memo,userdef,userid){
-				//console.log("reducing",userid,userdef,memo);
+		rendertext: function(pagedef,subid,contentdef){ return contentdef.markdown || this.options.data[contentdef.from][subid].markdown; },
+		renderlist: function(pagedef,subid,contentdef){
+			console.log("GONNA RENDER LIST",contentdef.from,this.options.data[contentdef.from]);
+			return _.reduce(query.filter(this.options.data[contentdef.from],contentdef.filter,subid),function(memo,objdef,objid){
+				console.log("reducing",objid,objdef,memo);
 				return memo+"<li>"+this.objtmpl({
-					icon: userdef.icon,
-					link: "#throneroom/"+userid,
-					text: userdef.name
+					icon: objdef.icon,
+					link: "#"+contentdef.link+"/"+objdef.id,
+					text: objdef.name
 				})+"</li>";
 			},"<ul class='horisontallist'>",this)+"</ul>";
 		},
-		renderactionlist: function(pagedef,subid,contentdef){
-			return "<b>ACTIONLIST</b>";
-		},
-		renderuser: function(pagedef,subid,contentdef){
-			var userdef = this.options.data.users[subid];
-			return this.objtmpl({
-				icon: userdef.icon,
-				link: "#throneroom/"+subid,
-				text: userdef.name
-			});
-		},
 		rendercloseup: function(pagedef,subid,contentdef){
-			var dataobj;
-			switch(contentdef.from){
-				case "user": dataobj = this.options.data.users[subid]; break;
-			}
-			console.log("MODAMDOASPDAS",contentdef);
-			return contentdef.template(dataobj);
+			console.log("CLOSEUP",contentdef.from,subid,this.options.data[contentdef.from][subid]);
+			return contentdef.template(this.options.data[contentdef.from][subid]);
 		}
 	});
 });

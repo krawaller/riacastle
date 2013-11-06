@@ -4,4 +4,4 @@ a.object.group.retro(href='#{link}')
 	img(
 		src='http://units.wesnoth.org/1.10/pics/core$images$units$#{icon}.png'
 	)
-	span.name !{text.replace(/ /g,"<br />")+"<br /><br />"}
+	span.name !{(text||"moo").replace(/ /g,"<br />")+"<br /><br />"}

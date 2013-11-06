@@ -6,14 +6,26 @@
 	"throneroom": {
 		"route":"throneroom",
 		"section":"throneroom",
-		"userlist":"all",
-		"actionlist":{"type":"entered"}
+		"userslist":"all",
+		"actionslist":{"type":"enter"}
 	},
 	"quarter": {
 		"route":"throneroom/:id",
 		"section":"throneroom",
-		"actionlist":[{"who":"ID"},{"target":"ID"}],
+		"actionslist":[{"matchesid":"who"},{"matchesid":"target"}],
 		"nomarkdown":true,
-		"closeup": "user"
+		"closeup": "users"
+	},
+	"armoury": {
+		"route":"armoury",
+		"section":"armoury",
+		"equipmentlist":"all"
+	},
+	"weapon": {
+		"route":"armoury/:id",
+		"section":"armoury",
+		"actionslist":[{"matchesid":"item"}],
+		"closeuptext": "equipment",
+		"nomarkdown":true
 	}
 }

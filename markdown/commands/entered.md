@@ -1,1 +1,1 @@
-bla bla when u enter the castle.
+i waaaants it!

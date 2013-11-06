@@ -1,0 +1,1 @@
+bla bla when u enter the castle.

@@ -3,6 +3,6 @@
 	"name": "Example Girl",
 	"icon": "orcs$warlord",
 	"actions": [
-		{"type":"entered","when":"2013-07-21T14:25"}
+		{"type":"enter","when":"2013-07-21T14:25"}
 	]
 }

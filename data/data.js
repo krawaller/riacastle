@@ -3,19 +3,28 @@
 // And we fix the pages so they all have a nice content array
 // Used in `app.js`.
 define(["withresources!commands","withresources!equipment","withresources!pages","usersloader!"],
-  function(commands,equipment,pages,users){
+  function(commands,equipment,pages,users,query){
 	return {
 		commands: commands,
-		equipment: equipment,
-		actions: users.actions,
+		// add the id to each item
+		equipment: _.mapObj(equipment,function(equip,id){ return _.extend(equip,{id:id})}),
 		icons: users.icons,
+		// augment action objects with data from corresponding command
+		actions: _.mapObj(users.actions,function(action,actionid){
+			return _.extend(action,_.pick(commands[action.type],["text","icon"]));
+		}),
 		// build upp unified "content" array for each page
 		pages: _.mapObj(pages,function(page,pageid){
 			arr = [];
-			if (page.markdown) { arr.push({type:"text"}); }
+			if (page.markdown) { arr.push({type:"text",markdown:page.markdown}); }
+			if (page.closeuptext) { arr.push({type:"text",from:page.closeuptext}) }
 			if (page.closeup) { arr.push({type:"closeup",template:page.jade,from:page.closeup}); }
-			if (page.actionlist) { arr.push({type:"actionlist",filter:page.actionlist}); }
-			if (page.userlist) { arr.push({type:"userlist",filter:page.userlist}); }
+			_.each(["users","actions","equipment"],function(type){
+				var links = {users:"throneroom",equipment:"armoury"};
+				if (page[type+"list"]) {
+					arr.push({type:"list",from:type,filter:page[type+"list"],link:links[type]});
+				}
+			});
 			return _.extend(page,{content:arr});
 		}),
 		// calculate the score for each user
