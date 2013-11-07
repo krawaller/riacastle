@@ -60,7 +60,6 @@ body {
 	margin-right: 1em;
 	padding: 5px;
 	border-radius: 5px 5px 0 0;
-	padding-left: 3em;
 }
 
 #nav li h3 {
@@ -69,10 +68,14 @@ body {
 	text-align: center;
 }
 
+#nav img {
+	padding-left: 2em;
+}
+
 #nav li {
 	background-image: url("https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/brazier.png");
 	background-repeat: no-repeat;
-	background-position: -15px 25px;
+	background-position: -15px 17px;
 }
 
 #nav li.active {

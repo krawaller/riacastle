@@ -15,7 +15,7 @@ define([ "backbone","jquery","underscore","data/query","jade!templates/object"],
 		},
 		rendertext: function(pagedef,subid,contentdef){ return contentdef.markdown || this.options.data[contentdef.from][subid].markdown; },
 		rendernavlist: function(pagedef,subid,contentdef){
-			var link = {users:"barracks",equipment:"armoury",resources:"library",phases:"throneroom"}[contentdef.from];
+			var link = {users:"barracks",equipment:"armoury",resources:"library",phases:"throneroom",commands:"training"}[contentdef.from];
 			return _.reduce(this.options.data[contentdef.from],function(memo,objdef,objid){
 				return memo+"<li>"+this.objtmpl({
 					icon: objdef.icon,
@@ -36,7 +36,7 @@ define([ "backbone","jquery","underscore","data/query","jade!templates/object"],
 					link: "#/"+objdef.id,
 					text: objdef.name
 				})+"</li>";
-			},"<ul>",this)+"</ul>";
+			},"<p>Related actions:</p><ul>",this)+"</ul>";
 		}
 	});
 });

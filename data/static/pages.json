@@ -56,6 +56,14 @@
 	},
 	"training": {
 		"route":"training",
-		"section":"training"
+		"section":"training",
+		"nav":"commands"
+	},
+	"lesson": {
+		"route":"training/:id",
+		"section":"training",
+		"closeup":"commands",
+		"nomarkdown":true,
+		"actions":[{"matchesid":"type"}]
 	}
 }

@@ -2,6 +2,6 @@
 
 a.object.group.retro(href='#{link}')
 	img(
-		src='http://units.wesnoth.org/1.10/pics/core$images$units$#{icon}.png'
+		src= '#{(typeof icon === "string" ? "http://units.wesnoth.org/1.10/pics/core$images$units$"+icon : "foo")}.png'
 	)
 	span.name !{(text||"moo").replace(/ /g,"<br />")+"<br /><br />"}
