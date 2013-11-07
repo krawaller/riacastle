@@ -11,9 +11,9 @@ define(["withresources!commands","withresources!equipment","withresources!pages"
 		// add the id to each item
 		equipment: _.mapObj(equipment,function(equip,id){ return _.extend(equip,{id:id}); }),
 		// augment action objects with data from corresponding command
-		actions: _.mapObj(users.actions,function(action,actionid){
-			return _.extend(action,_.pick(commands[action.type],["text","icon"]));
-		}),
+		actions: _.sortObj(_.mapObj(users.actions,function(action,actionid){
+			return _.extend(action,_.pick(commands[action.type],["text","icon","whocoin","targetcoin"]));
+		}),"when"),
 		// build upp unified "content" array for each page
 		pages: _.mapObj(pages,function(page,pageid){
 			arr = [];

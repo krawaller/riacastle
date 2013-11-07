@@ -31,11 +31,12 @@ define([ "backbone","jquery","underscore","data/query","jade!templates/object","
 			return contentdef.template(this.options.data[contentdef.from][subid]);
 		},
 		renderactions: function(pagedef,subid,contentdef){
-			var db = this.options.data
+			var db = this.options.data;
 			var linkmap = {users:"barracks",equipment:"armoury",resources:"library",phases:"throneroom",commands:"training"};
 			var tmpl = this.objtmpl;
 			return _.reduce(query.filter(db.actions,contentdef.filter,subid),function(memo,actiondef){
 				return memo+"<li>"+this.actiontmpl(_.extend({
+					url: actiondef.url,
 					when: actiondef.when,
 					action: this.objtmpl({
 						icon: actiondef.icon,
@@ -43,23 +44,12 @@ define([ "backbone","jquery","underscore","data/query","jade!templates/object","
 						category: "actions",
 						link: "#training/"+actiondef.type
 					}),
-					/*who: this.objtmpl({
-						icon: db.users[actiondef.who].icon,
-						link: "#barracks/"+actiondef.who,
-						text: db.users[actiondef.who].name,
-						category: "users"
-					}),
-					phase: actiondef.phase ? this.objtmpl({
-						icon: db.phases[actiondef.phase].icon,
-						link: "#throneroom/"+actiondef.phase,
-						category: "phases",
-						text: this.options.data.phases[actiondef.phase].name
-					}) : "",*/
-				},_.mapObj({who:"users",phase:"phases",gear:"equipment",id:"resources"},function(val,key){
-					console.log("VAL",val,"KEY",key,"ACTIONDEFKEY",actiondef[key],"ACTIONDEF",actiondef);
+				},_.mapObj({who:"users",phase:"phases",gear:"equipment",id:"resources",target:"users"},function(val,key){
 					if (actiondef[key]){
 						d = db[val][actiondef[key]];
 						return tmpl({
+							fixcoin: (key=="who"&&actiondef.whocoin)||(key=="target"&&actiondef.targetcoin)||0,
+							bonuscoin: (key=="who"&&actiondef.whobonus)||(key=="target"&&actiondef.targetbonus)||0,
 							icon: d.icon,
 							link: "#"+linkmap[val]+"/"+actiondef[key],
 							text: d.text || d.name,

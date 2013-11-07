@@ -18,5 +18,11 @@
 		"whocoin": 5,
 		"text":"completed",
 		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/key"
+	},
+	"thank": {
+		"whocoin": 1,
+		"targetcoin": 5,
+		"text": "thanked",
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/flower4"
 	}
 }

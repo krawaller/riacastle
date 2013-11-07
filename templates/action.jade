@@ -16,3 +16,8 @@ span
 		| !{gear}
 	if id
 		| !{id}
+	if target
+		| !{target}
+	if url
+		a.object.group.retro(href='#{url}',target='_blank')
+			img(src="https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/scenery/signpost.png")

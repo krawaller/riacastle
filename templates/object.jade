@@ -8,4 +8,8 @@ a.object.group.retro(href='#{link}')
 		)
 	else
 		div.insteadofpic
+	if (typeof(fixcoin) !== 'undefined' && fixcoin > 0)
+		span.fixcoin +#{fixcoin}
+	if (typeof(bonuscoin) !== 'undefined' && bonuscoin > 0)
+		span.bonuscoin +#{bonuscoin}
 	span.name !{(text||"moo").replace(/ /g,"<br />")+"<br /><br />"}

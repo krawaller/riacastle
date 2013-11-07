@@ -16,6 +16,7 @@ body {
 	margin-top: 1em;
 	padding-right: 1em;
 	border-radius: 5px;
+	position: relative;
 }
 
 .retro, #nav h3 {
@@ -28,7 +29,7 @@ body {
 }
 
 .object:hover {
-	background-color: #323232;
+	background-color: #111;
 }
 
 .object > .name {
@@ -110,4 +111,20 @@ div.insteadofpic {
 	border-radius: 5px;
 	float: left;
 	clear: left;
+}
+
+.fixcoin {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	color: gold;
+	font-size: 0.8em;
+}
+
+.bonuscoin {
+	position: absolute;
+	top: 3px;
+	right: 25px;
+	font-size: 0.8em;
+	color: blueviolet;
 }
