@@ -2,5 +2,25 @@
 	"hammer": {
 		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/attacks/hammer",
 		"name": "hammer of building"
+	},
+	"jadenecklace": {
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/ankh-necklace",
+		"name": "jade necklace"
+	},
+	"lovepotion": {
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/potion-red",
+		"name": "love potion"
+	},
+	"holycoffee": {
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/holy-water",
+		"name": "holy coffee"
+	},
+	"timestaff": {
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/attacks/staff-elven",
+		"name": "time staff"
+	},
+	"baneblade": {
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/attacks/baneblade",
+		"name": "undead blade"
 	}
 }

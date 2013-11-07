@@ -1,1 +1,1 @@
-The training ground, wee!
+If you want to learn about the various actions you can perform in the Guild, the Training Grounds is the place to be! Select an action from the list below, and you will receive help in mastering it.

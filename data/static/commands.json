@@ -2,27 +2,76 @@
 	"join": {
 		"whocoin": 1,
 		"text": "joined",
-		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/orcish-flag"
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/orcish-flag",
+		"description":"The first command to perform, this is what you do to gain entry into the guild! No other arguments required."
 	},
 	"addresource": {
 		"whocoin": 3,
 		"text":"added resource",
-		"icon":"https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/chest-plain-open"
+		"icon":"https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/chest",
+		"description":"With this command you add a link to a resource you appreciate.",
+		"args": {
+			"id": "The id you want to give your new resource",
+			"name": "The display name of the new resource",
+			"url":"The full URL for the resource."
+		}
+	},
+	"review": {
+		"whocoin": 3,
+		"text": "reviewed",
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/ball-blue",
+		"description":"This is a way of sharing your thoughts on a resource previously added to the Library.",
+		"args": {
+			"resource": "The id of the resource you have reviewed.",
+			"url":"The full URL to the review on your blog."
+		}
 	},
 	"yearn": {
 		"whocoin": 2,
 		"text":"yearns for",
-		"icon":"https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/attacks/touch-zombie"
+		"icon":"https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/attacks/touch-zombie",
+		"description": "This command signals your intent to strive to wield a certain item.",
+		"args": {
+			"gear": "The target of your affections."
+		}
 	},
 	"complete": {
 		"whocoin": 5,
 		"text":"completed",
-		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/key"
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/key",
+		"description":"This is how you signal you have completed a certain phase.",
+		"args": {
+			"phase":"The id of the phase you have completed.",
+			"url":"The full URL to the (mandatory) corresponding blog post."
+		}
 	},
 	"thank": {
 		"whocoin": 1,
 		"targetcoin": 5,
 		"text": "thanked",
-		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/flower4"
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/flower4",
+		"description": "When having received a pull request from a fellow guild member, it is customary to give an official thank you through this command!",
+		"args": {
+			"target": "The id of the guild member who issued the pull request to you.",
+			"url": "The full URL to the pull request on Github!"
+		}
+	},
+	"write": {
+		"whocoin": 3,
+		"text": "shares some writings",
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/attacks/ink",
+		"description": "If you have written something on your blog that isn't directly tied to a phase or a resource, use this command.",
+		"args": {
+			"url": "The full URL to the blog post you want to share."
+		}
+	},
+	"claim": {
+		"whocoin": 5,
+		"text": "claims",
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/chest-plain-open",
+		"description": "When you have been deemed worthy of an item you've yearned to wield, use this command to fulfill your wishes!",
+		"args": {
+			"gear": "The id of the equipment."
+		}
 	}
 }

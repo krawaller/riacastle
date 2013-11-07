@@ -1,1 +1,1 @@
-| Lots of weaps! woo!
+The Armoury, of course, is where the Guild's weapons are stored. These are all mightily powerful items, granted only to those who prove themselves worthy. Should you see anything that catches your fancy in the collection below, pick it up in order to be told what you need to do to deserve calling it yours! If you **yearn** to own any of them, strive to fulfill the requirements so you can **claim** it!

@@ -1,0 +1,1 @@
+To deserve the Undear Blade, you must master **Backbone**. The small scale of our application isn't really enough to fully utilize Backbone's power, but by pretending you're building a big and complex machinery you can still make choices to use Backbone more that what is necesary. Do this, immerse yourself in Backbone's inner workings, and you shall be given the Undead Blade!

@@ -1,11 +1,14 @@
 
 span
-	span.object.group.retro
+	span.object.group.retro.timebox
 		div.insteadofpic
 		span.time
-			| At #{when.split("T")[0]}
+			span.vague At 
+			| #{when.split("T")[0]} 
 			br
-			| #{when.split("T")[1]} o'clock
+			br
+			| #{when.split("T")[1]} 
+			span.vague o'clock 
 			br
 			br
 	| !{who}

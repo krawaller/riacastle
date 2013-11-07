@@ -1,1 +1,1 @@
-The collected knowledge bla bla
+The Library collects the various sources of wisdom that the Guild members find on their travels. If you yourself find something that deserves a mention, you should **add** it to the collection! You can also **review** a resource, or let the Guild know that you have done some **writing** yourself.

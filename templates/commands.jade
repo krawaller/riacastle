@@ -1,1 +1,28 @@
-| woo nice command this
+.commanddef
+	div.object.retro
+		img(src='#{icon}.png')
+		span.name
+			| #{id}
+			br
+			br
+
+	h3 Presentation
+
+	dl.group
+		dt ID
+		dd #{id}
+		dt Reward
+		dd #{whocoin}
+		if typeof targetcoin !== "undefined"
+			dt Target reward
+			dd #{targetcoin}
+		dt Description
+		dd #{description}
+
+
+	if typeof args !== "undefined"
+		h3 Arguments
+		dl.group
+			-for(var t in args)
+				dt #{t}
+				dd #{args[t]}

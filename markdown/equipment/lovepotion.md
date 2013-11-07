@@ -1,0 +1,1 @@
+To be granted the love potion you must prove yourself a master of **relationships**. Your application should contain relations between models, managed by Backbone Relational or similar.

@@ -46,7 +46,7 @@
 		"route":"library",
 		"section":"library",
 		"nav":"resources",
-		"actions":[{"notempty":"resource"},{"type":"writes"}]
+		"actions":[{"notempty":"id"},{"type":"writes"}]
 	},
 	"resource": {
 		"route":"library/:id",

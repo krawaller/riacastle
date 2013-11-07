@@ -1,0 +1,1 @@
+With this staff you can control time, making it bend to your will. The JavaScript equivalent that you must master is to use **asynchronous** code in your application. Introduce fake timers to simulate waiting for database response, use promises, or the async.js library.

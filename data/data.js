@@ -2,12 +2,13 @@
 // Is also responsible for calculating the scores of the users, since we now have access to users, actions and commands.
 // And we fix the pages so they all have a nice content array
 // Used in `app.js`.
-define(["withresources!commands","withresources!equipment","withresources!pages","withresources!phases","usersloader!"],
+define(["json!data/static/commands","withresources!equipment","withresources!pages","withresources!phases","usersloader!"],
   function(commands,equipment,pages,phases,users,query){
 	return {
-		commands: commands,
 		phases: _.sortObj(phases,function(phase){return parseInt(phase.id[phase.id.length-1]);}),
 		icons: users.icons,
+		// add the id to each item
+		commands: _.mapObj(commands,function(cmnd,id){ return _.extend(cmnd,{id:id}); }),
 		// add the id to each item
 		equipment: _.mapObj(equipment,function(equip,id){ return _.extend(equip,{id:id}); }),
 		// augment action objects with data from corresponding command

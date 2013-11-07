@@ -1,1 +1,1 @@
-**Yeah yeah yeah HAMMERRRR**
+The Hammer of Building is the primary tool for those who choose to forsake their own projects in order to **contribute** to the endeavours of others. If you keep the scope of your own project small, and instead invest time into helping out others, then the Hammer of Building will be given to you as compensation for glory lost!

@@ -1,0 +1,1 @@
+The holiest of brews, coffee, is of course awarded to those who try their hand at **CoffeeScript**. A substantial part of your app must be built using CS, which you can then load using Require thanks to the CS compiler module.

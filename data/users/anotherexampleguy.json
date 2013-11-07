@@ -3,6 +3,7 @@
 	"name": "Another Example Guy",
 	"icon": "human-loyalists$masterbowman",
 	"actions": [
-		{"type":"join","when":"2013-07-19T23:01"}
+		{"type":"join","when":"2013-07-19T23:01"},
+		{"type":"write","when":"2013-09-22T17:29","url":"http://example.com/sth"}
 	]
 }

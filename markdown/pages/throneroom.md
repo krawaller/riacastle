@@ -1,1 +1,1 @@
-This is where the master plan is laid out. Details below!
+Here in the Throne Room is where we lay out our master plan, that we are each tasked to follow. The plan is split into several steps; select a step in the list below to read up on the details! If you find you have **completed** all objectives for a certain step, let the Guild Master know!

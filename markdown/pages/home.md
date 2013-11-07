@@ -1,1 +1,1 @@
-Welcome home! woo! :)
+Welcome to the JavaScript Guild! This is the home of the brave students undetaking the "RIA-development with JavaScript" at Linnaeus University, autumn 2013!

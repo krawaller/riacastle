@@ -19,6 +19,17 @@ body {
 	position: relative;
 }
 
+#nav a {
+	text-decoration: none;
+}
+
+#nav li h3 {
+	color: #666;
+}
+#nav li.active h3, #nav li:hover h3 {
+	color: #fff;
+}
+
 .retro, #nav h3 {
 	text-decoration: none;
 	background-color: #000;
@@ -76,6 +87,11 @@ body {
 
 #nav img {
 	padding-left: 2em;
+	opacity: 0.6;
+}
+
+#nav li.active img, #nav li:hover img {
+	opacity: 1;
 }
 
 #nav li {
@@ -127,4 +143,34 @@ div.insteadofpic {
 	right: 25px;
 	font-size: 0.8em;
 	color: blueviolet;
+}
+
+.timebox, .timebox:hover {
+	background-color: inherit;
+}
+
+.vague {
+	color: #666;
+}
+
+.commanddef dt {
+	float: left;
+	clear: left;
+	text-align: right;
+	font-style: italic;
+	width: 110px;
+}
+
+.commanddef dt:after {
+	content: ":";
+}
+
+.commanddef dd {
+	float: left;
+	-webkit-margin-start: 0;
+	margin-left: 1em;
+}
+
+#content h3 {
+	margin-left: 3em;
 }

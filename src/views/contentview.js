@@ -1,5 +1,6 @@
 define([ "backbone","jquery","underscore","data/query","jade!templates/object","jade!templates/action"],function(Backbone,$,_,query,objtmpl,actiontmpl){
 	return Backbone.View.extend({
+		tabletopath: {users:"barracks",equipment:"armoury",resources:"library",phases:"throneroom",commands:"training"},
 		objtmpl: objtmpl,
 		actiontmpl: actiontmpl,
 		// empty the element and append the results of each processed content definition
@@ -7,16 +8,22 @@ define([ "backbone","jquery","underscore","data/query","jade!templates/object","
 			this.$el.empty();
 			// process all content defs and append each result
 			console.log("CONTENT",pagedef.content);
-			_.each(pagedef.content,_.compose(_.bind(this.$el.append,this.$el),_.partial(this.renderRouter,pagedef,subid)),this);
+			_.each(pagedef.content.concat(subid?{type:"icon",from:pagedef.closeup||pagedef.closeuptext}:[]),_.compose(_.bind(this.$el.append,this.$el),_.partial(this.renderRouter,pagedef,subid)),this);
 			return this;
 		},
 		// merely routs the call from render to the correct function
 		renderRouter: function(pagedef,subid,contentdef){
 			return this["render"+contentdef.type](pagedef,subid,contentdef);
 		},
+		rendericon: function(pagedef,subid,contentdef){
+			return "<div class='centerbox'>"+this.objtmpl({
+				icon: this.options.data[contentdef.from].icon,
+				text: this.options.data[contentdef.from].text || this.options.data[contentdef.from].name
+			})+"</div>";
+		},
 		rendertext: function(pagedef,subid,contentdef){ return contentdef.markdown || this.options.data[contentdef.from][subid].markdown; },
 		rendernavlist: function(pagedef,subid,contentdef){
-			var link = {users:"barracks",equipment:"armoury",resources:"library",phases:"throneroom",commands:"training"}[contentdef.from];
+			var link = this.tabletopath[contentdef.from];
 			return _.reduce(this.options.data[contentdef.from],function(memo,objdef,objid){
 				return memo+"<li>"+this.objtmpl({
 					icon: objdef.icon,
@@ -32,7 +39,7 @@ define([ "backbone","jquery","underscore","data/query","jade!templates/object","
 		},
 		renderactions: function(pagedef,subid,contentdef){
 			var db = this.options.data;
-			var linkmap = {users:"barracks",equipment:"armoury",resources:"library",phases:"throneroom",commands:"training"};
+			var linkmap = this.tabletopath;
 			var tmpl = this.objtmpl;
 			return _.reduce(query.filter(db.actions,contentdef.filter,subid),function(memo,actiondef){
 				return memo+"<li>"+this.actiontmpl(_.extend({
@@ -55,7 +62,6 @@ define([ "backbone","jquery","underscore","data/query","jade!templates/object","
 							text: d.text || d.name,
 							category: val
 						});
-					return "";
 					}
 				})))+"</li>";
 			},"<p>Related actions:</p><ul class='actionlist'>",this)+"</ul>";

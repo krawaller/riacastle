@@ -1,0 +1,1 @@
+The Jade Necklace is awarded to those who dare wield the **Jade templates** and explore their power.
