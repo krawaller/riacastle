@@ -1,5 +1,18 @@
-a(href="#throneroom")
-	. tillbax
+h3 Presentation
 
-b
-	| whooohoo! :) #{name} is my name!
+dl.group
+	dt ID
+	dd #{id}
+	dt Name
+	dd #{name}
+	dt Blog
+	dd
+		a(href="#{blog}")
+			img(height='35px',src='https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/scenery/signpost.png')
+	dt Repo
+	dd
+		a(href="#{repo}")
+			img(height='35px',src='https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/scenery/signpost.png')
+	dt Gold
+	dd(style="color:gold;")
+		b #{score}

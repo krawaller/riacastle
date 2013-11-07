@@ -2,9 +2,11 @@
 	"example": true,
 	"name": "Mr Example",
 	"icon": "undead-skeletal$archer",
+	"repo": "http://foo.bar.com",
+	"blog": "http://foo.bar.com",
 	"actions": [
 		{"type":"join","when":"2013-07-12T17:02","whobonus":5},
-		{"type":"addresource","id":"functionaljs","name":"Functional JS","link":"http://blog.fogus.me/2013/03/20/fun-js/","whobonus":2,"when":"2013-07-21T14:26"},
+		{"type":"addresource","id":"functionaljs","name":"Functional JS","url":"http://blog.fogus.me/2013/03/20/fun-js/","whobonus":2,"when":"2013-07-21T14:26"},
 		{"type":"yearn","gear":"hammer","when":"2013-07-24T13:26"}
 	]
 }

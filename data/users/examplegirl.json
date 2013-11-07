@@ -2,6 +2,8 @@
 	"example": true,
 	"name": "Example Girl",
 	"icon": "orcs$warlord",
+	"repo": "http://foo.bar.com",
+	"blog": "http://foo.bar.com",
 	"actions": [
 		{"type":"join","when":"2013-07-21T14:25"},
 		{"type":"complete","phase":"phase0","when":"2013-08-02T04:31"},

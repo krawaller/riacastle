@@ -1,3 +1,7 @@
+a {
+	color: white;
+}
+
 .text {
 	font-family: fantasy;
 	font-size: 16px;
@@ -171,7 +175,7 @@ div.insteadofpic {
 	color: #666;
 }
 
-.commanddef dt {
+dt {
 	float: left;
 	clear: left;
 	text-align: right;
@@ -179,11 +183,11 @@ div.insteadofpic {
 	width: 110px;
 }
 
-.commanddef dt:after {
+dt:after {
 	content: ":";
 }
 
-.commanddef dd {
+dd {
 	float: left;
 	-webkit-margin-start: 0;
 	margin-left: 1em;
@@ -200,4 +204,5 @@ div.insteadofpic {
 .actionimg {
 	display: block;
 	margin: 0 auto;
+	margin-top: 2em;
 }
