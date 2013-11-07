@@ -1,0 +1,18 @@
+
+span
+	span.object.group.retro
+		div.insteadofpic
+		span.time
+			| At #{when.split("T")[0]}
+			br
+			| #{when.split("T")[1]} o'clock
+			br
+			br
+	| !{who}
+	| !{action}
+	if phase
+		| !{phase}
+	if gear
+		| !{gear}
+	if id
+		| !{id}

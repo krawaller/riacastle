@@ -1,7 +1,11 @@
 //- This template is given an object definition, with `icon`, `link` and `text` data.
 
 a.object.group.retro(href='#{link}')
-	img(
-		src= '#{(typeof icon === "string" ? "http://units.wesnoth.org/1.10/pics/core$images$units$"+icon : "foo")}.png'
-	)
+	if icon
+		img(
+			class= '#{category}'
+			src= '#{icon}.png'
+		)
+	else
+		div.insteadofpic
 	span.name !{(text||"moo").replace(/ /g,"<br />")+"<br /><br />"}

@@ -6,7 +6,7 @@ define(["withresources!commands","withresources!equipment","withresources!pages"
   function(commands,equipment,pages,phases,users,query){
 	return {
 		commands: commands,
-		phases: phases,
+		phases: _.sortObj(phases,function(phase){return parseInt(phase.id[phase.id.length-1]);}),
 		icons: users.icons,
 		// add the id to each item
 		equipment: _.mapObj(equipment,function(equip,id){ return _.extend(equip,{id:id}); }),
@@ -30,19 +30,20 @@ define(["withresources!commands","withresources!equipment","withresources!pages"
 			});*/
 			return _.extend(page,{content:arr});
 		}),
-		// calculate the score for each user
+		// calculate the score for each user, and correct icon address
 		users: _.mapObj(users.users,function(user,userid){
 			return _.extend(user,{
 				score: _.reduce(users.actions,function(memo,action){
 					whoscore = (action.who === userid ? commands[action.type].whocoin + (action.whobonus||0):0);
 					targetscore = (action.target === userid ? commands[action.type].targetcoin + (action.targetbonus||0):0);
 					return memo + whoscore + targetscore;
-				},0)
+				},0),
+				icon: "http://units.wesnoth.org/1.10/pics/core$images$units$"+user.icon
 			});
 		}),
 		// build resources from all resource-adding actions
 		resources: _.reduce(users.actions,function(memo,action){
-			return action.type !== "addresource" ? memo : _.extendChild(memo,action.id,_.pick(action,["name","link","id"]));
+			return action.type !== "addresource" ? memo : _.extendChild(memo,action.id,_.extend(_.pick(action,["name","link","id"]),{icon:"https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/book1"}));
 		},{})
 	};
 });

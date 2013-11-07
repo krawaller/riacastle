@@ -1,18 +1,22 @@
 {
-	"enter": {
-		"icon": {
-			"category": "scenery",
-			"id": "dwarven-doors-closed"
-		},
+	"join": {
 		"whocoin": 1,
-		"name": "entered"
+		"text": "joined",
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/orcish-flag"
 	},
 	"addresource": {
 		"whocoin": 3,
-		"name":"added resource"
+		"text":"added resource",
+		"icon":"https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/chest-plain-open"
 	},
 	"yearn": {
 		"whocoin": 2,
-		"name":"yearns for"
+		"text":"yearns for",
+		"icon":"https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/attacks/touch-zombie"
+	},
+	"complete": {
+		"whocoin": 5,
+		"text":"completed",
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/key"
 	}
 }

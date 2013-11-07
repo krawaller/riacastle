@@ -11,8 +11,7 @@ body {
 }
 
 .object {
-	display: block;
-	float: left;
+	display: inline-block;
 	margin-right: 1em;
 	margin-top: 1em;
 	padding-right: 1em;
@@ -29,7 +28,7 @@ body {
 }
 
 .object:hover {
-	background-color: #222;
+	background-color: #323232;
 }
 
 .object > .name {
@@ -41,6 +40,12 @@ body {
 .object > img {
 	height: 55px;
 	width: 55px;
+	padding: 3px;
+}
+
+.object > img.phases {
+	width: 125px;
+	padding: 3px;
 }
 
 /* modularise floats */
@@ -80,4 +85,29 @@ body {
 
 #nav li.active {
 	background-image: url("https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/brazier-lit1.png");
+}
+
+ul.actionlist {
+	list-style-type: none;
+}
+div.insteadofpic {
+	display: inline-block;
+	height: 55px;
+	width: 1px;
+	padding:3px;
+}
+.time {
+	display: inline-block;
+	margin-top: -5px;
+}
+
+.actionlist li {
+	height: 80px;
+	overflow: hidden;
+	margin: 5px;
+	padding-left: 10px;
+	background-color: #222;
+	border-radius: 5px;
+	float: left;
+	clear: left;
 }

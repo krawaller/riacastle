@@ -13,13 +13,14 @@
 		"section":"throneroom",
 		"actions":[{"matchesid":"phase"}],
 		"closeuptext": "phases",
-		"nomarkdown":true
+		"nomarkdown":true,
+		"actions":{"matchesid":"phase"}
 	},
 	"barracks": {
 		"route":"barracks",
 		"section":"barracks",
 		"nav":"users",
-		"actions":{"type":"enter"}
+		"actions":{"proptocheck":"type","propval":"join"}
 	},
 	"quarter": {
 		"route":"barracks/:id",
