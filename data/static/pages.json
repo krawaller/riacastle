@@ -6,7 +6,8 @@
 	"throneroom": {
 		"route":"throneroom",
 		"section":"throneroom",
-		"nav":"phases"
+		"nav":"phases",
+		"actions":{"proptocheck":"type","propval":"complete"}
 	},
 	"phase": {
 		"route":"throneroom/:id",

@@ -8,7 +8,7 @@ define([ "backbone","jquery","underscore","data/query","jade!templates/object","
 			this.$el.empty();
 			// process all content defs and append each result
 			console.log("CONTENT",pagedef.content);
-			_.each(pagedef.content.concat(subid?{type:"icon",from:pagedef.closeup||pagedef.closeuptext}:[]),_.compose(_.bind(this.$el.append,this.$el),_.partial(this.renderRouter,pagedef,subid)),this);
+			_.each((subid?[{type:"icon",from:pagedef.closeup||pagedef.closeuptext}]:[]).concat(pagedef.content),_.compose(_.bind(this.$el.append,this.$el),_.partial(this.renderRouter,pagedef,subid)),this);
 			return this;
 		},
 		// merely routs the call from render to the correct function
@@ -16,12 +16,14 @@ define([ "backbone","jquery","underscore","data/query","jade!templates/object","
 			return this["render"+contentdef.type](pagedef,subid,contentdef);
 		},
 		rendericon: function(pagedef,subid,contentdef){
+			console.log("IIIICOOOON",contentdef.from);
 			return "<div class='centerbox'>"+this.objtmpl({
-				icon: this.options.data[contentdef.from].icon,
-				text: this.options.data[contentdef.from].text || this.options.data[contentdef.from].name
+				icon: this.options.data[contentdef.from][subid].icon,
+				text: this.options.data[contentdef.from][subid].text || this.options.data[contentdef.from][subid].name,
+				category: contentdef.from
 			})+"</div>";
 		},
-		rendertext: function(pagedef,subid,contentdef){ return contentdef.markdown || this.options.data[contentdef.from][subid].markdown; },
+		rendertext: function(pagedef,subid,contentdef){ return "<div class='text'>"+(contentdef.markdown || this.options.data[contentdef.from][subid].markdown)+"</div>"; },
 		rendernavlist: function(pagedef,subid,contentdef){
 			var link = this.tabletopath[contentdef.from];
 			return _.reduce(this.options.data[contentdef.from],function(memo,objdef,objid){
@@ -31,11 +33,11 @@ define([ "backbone","jquery","underscore","data/query","jade!templates/object","
 					text: objdef.name || objdef.text,
 					category: contentdef.from
 				})+"</li>";
-			},"<ul class='horisontallist'>",this)+"</ul>";
+			},"<div class='centerbox'><ul class='horisontallist'>",this)+"</ul></div>";
 		},
 		rendercloseup: function(pagedef,subid,contentdef){
 			console.log("CLOSEUP",contentdef.from,subid,this.options.data[contentdef.from][subid]);
-			return contentdef.template(this.options.data[contentdef.from][subid]);
+			return "<div class='text'>"+contentdef.template(this.options.data[contentdef.from][subid])+"</div>";
 		},
 		renderactions: function(pagedef,subid,contentdef){
 			var db = this.options.data;
@@ -64,7 +66,7 @@ define([ "backbone","jquery","underscore","data/query","jade!templates/object","
 						});
 					}
 				})))+"</li>";
-			},"<p>Related actions:</p><ul class='actionlist'>",this)+"</ul>";
+			},"<div class='centerbox'><img class='actionimg' src='https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/burial.png'/><ul class='actionlist'>",this)+"</ul></div>";
 		}
 	});
 });

@@ -1,9 +1,21 @@
+.text {
+	font-family: fantasy;
+	font-size: 16px;
+	color: white;
+	background-color: #222;
+	padding: 5px;
+	border-radius: 5px;
+}
+
 body {
 	background-color: #333;
+	font-family: fantasy;
+	font-size: 16px;
 }
 
 .horisontallist {
 	list-style: none;
+	display: inline-block;
 }
 
 .horisontallist > li {
@@ -69,14 +81,18 @@ body {
 	visibility: hidden;
 }
 
+#nav ul {
+	background-color: black;
+	border-radius: 5px;
+	-webkit-margin-before: 0;
+	-webkit-padding-start: 0;
+	display: inline-block;
+}
 
 #nav li {
 	float: left;
 	list-style-type: none;
-	background-color: #000;
-	margin-right: 1em;
 	padding: 5px;
-	border-radius: 5px 5px 0 0;
 }
 
 #nav li h3 {
@@ -97,7 +113,7 @@ body {
 #nav li {
 	background-image: url("https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/brazier.png");
 	background-repeat: no-repeat;
-	background-position: -15px 17px;
+	background-position: -7px 20px;
 }
 
 #nav li.active {
@@ -106,6 +122,8 @@ body {
 
 ul.actionlist {
 	list-style-type: none;
+	display: inline-block;
+	-webkit-padding-start: 0;
 }
 div.insteadofpic {
 	display: inline-block;
@@ -173,4 +191,13 @@ div.insteadofpic {
 
 #content h3 {
 	margin-left: 3em;
+}
+
+.centerbox {
+	text-align: center;
+	padding-right: 0%;
+}
+.actionimg {
+	display: block;
+	margin: 0 auto;
 }

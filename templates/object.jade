@@ -1,14 +1,29 @@
 //- This template is given an object definition, with `icon`, `link` and `text` data.
-a.object.group.retro(href='#{link}')
-	if icon
-		img(
-			class= '#{category}'
-			src= '#{icon}.png'
-		)
-	else
-		div.insteadofpic
-	if (typeof(fixcoin) !== 'undefined' && fixcoin > 0)
-		span.fixcoin +#{fixcoin}
-	if (typeof(bonuscoin) !== 'undefined' && bonuscoin > 0)
-		span.bonuscoin +#{bonuscoin}
-	span.name !{(text||"moo").replace(/ /g,"<br />")+"<br /><br />"}
+if typeof link !== 'undefined'
+	a.object.group.retro(href='#{link}')
+		if icon
+			img(
+				class= '#{category}'
+				src= '#{icon}.png'
+			)
+		else
+			div.insteadofpic
+		if (typeof(fixcoin) !== 'undefined' && fixcoin > 0)
+			span.fixcoin +#{fixcoin}
+		if (typeof(bonuscoin) !== 'undefined' && bonuscoin > 0)
+			span.bonuscoin +#{bonuscoin}
+		span.name !{(text||"moo").replace(/ /g,"<br />")+"<br /><br />"}
+else
+	.object.group.retro
+		if icon
+			img(
+				class= '#{category}'
+				src= '#{icon}.png'
+			)
+		else
+			div.insteadofpic
+		if (typeof(fixcoin) !== 'undefined' && fixcoin > 0)
+			span.fixcoin +#{fixcoin}
+		if (typeof(bonuscoin) !== 'undefined' && bonuscoin > 0)
+			span.bonuscoin +#{bonuscoin}
+		span.name !{(text||"moo").replace(/ /g,"<br />")+"<br /><br />"}
