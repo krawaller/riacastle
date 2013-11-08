@@ -30,6 +30,11 @@
 		"nomarkdown":true,
 		"closeup": "users"
 	},
+	"gallery": {
+		"route":"gallery",
+		"section":"barracks",
+		"view":"graphics"
+	},
 	"armoury": {
 		"route":"armoury",
 		"section":"armoury",

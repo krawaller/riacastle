@@ -23,12 +23,7 @@ define(["json!data/static/commands","withresources!equipment","withresources!pag
 			if (page.closeup) { arr.push({type:"closeup",template:page.jade,from:page.closeup}); }
 			if (page.nav) { arr.push({type:"navlist",from:page.nav}); }
 			if (page.actions) { arr.push({type:"actions",filter:page.actions}); }
-			/*_.each(["users","equipment","resources","phases","actions"],function(type){
-				var links = {users:"barracks",equipment:"armoury",resources:"library",phases:"throneroom"};
-				if (page[type+"list"]) {
-					arr.push({type:"list",from:type,filter:page[type+"list"],link:links[type]});
-				}
-			});*/
+			if (page.view) { arr.push({type:"view","view":page.view}); }
 			return _.extend(page,{content:arr});
 		}),
 		// calculate the score for each user, and correct icon address
@@ -44,7 +39,7 @@ define(["json!data/static/commands","withresources!equipment","withresources!pag
 		}),
 		// build resources from all resource-adding actions
 		resources: _.reduce(users.actions,function(memo,action){
-			return action.type !== "addresource" ? memo : _.extendChild(memo,action.id,_.extend(_.pick(action,["name","link","id"]),{icon:"https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/book1"}));
+			return action.type !== "addresource" ? memo : _.extendChild(memo,action.id,_.extend(_.pick(action,["name","url","id","shortdesc"]),{icon:"https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/book1"}));
 		},{})
 	};
 });

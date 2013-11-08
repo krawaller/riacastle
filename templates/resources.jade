@@ -1,5 +1,13 @@
-a(href="#library")
-	. tillbax
+h3 Presentation
 
-b
-	| whooohoo! :) #{name} is a nice resource! moooo!
+dl.group
+	dt ID
+	dd #{id}
+	dt Name
+	dd #{name}
+	dt Description
+	dd #{shortdesc}
+	dt Link
+	dd
+		a(href="#{url}")
+			img(height='35px',src='https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/scenery/signpost.png')

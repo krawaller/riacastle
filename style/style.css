@@ -218,3 +218,7 @@ dd {
 	margin: 0 auto;
 	margin-top: 2em;
 }
+.text a {
+	color: black;
+	font-weight: bold;
+}

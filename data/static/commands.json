@@ -13,7 +13,8 @@
 		"args": {
 			"id": "The id you want to give your new resource",
 			"name": "The display name of the new resource",
-			"url":"The full URL for the resource."
+			"url":"The full URL for the resource.",
+			"shortdesc":"A short description of the resource"
 		}
 	},
 	"review": {

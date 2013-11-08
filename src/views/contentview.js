@@ -1,4 +1,4 @@
-define([ "backbone","jquery","underscore","data/query","jade!templates/object","jade!templates/action"],function(Backbone,$,_,query,objtmpl,actiontmpl){
+define([ "backbone","jquery","underscore","data/query","jade!templates/object","jade!templates/action","src/views/graphicsoverview"],function(Backbone,$,_,query,objtmpl,actiontmpl,GraphicsView){
 	return Backbone.View.extend({
 		tabletopath: {users:"barracks",equipment:"armoury",resources:"library",phases:"throneroom",commands:"training"},
 		objtmpl: objtmpl,
@@ -38,6 +38,10 @@ define([ "backbone","jquery","underscore","data/query","jade!templates/object","
 		rendercloseup: function(pagedef,subid,contentdef){
 			console.log("CLOSEUP",contentdef.from,subid,this.options.data[contentdef.from][subid]);
 			return "<div class='text'>"+contentdef.template(this.options.data[contentdef.from][subid])+"</div>";
+		},
+		renderview: function(pagedef,subid,contentdef){
+			// assuming view is graphics view
+			return (new GraphicsView({kinds:["units"]})).render().$el.html();
 		},
 		renderactions: function(pagedef,subid,contentdef){
 			var db = this.options.data;
