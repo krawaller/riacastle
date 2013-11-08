@@ -1,1 +1,1 @@
-Phase 1 :)
+Before noon we lay out the foundation of our project. See the [Steg 1 page](https://coursepress.lnu.se/kurs/ria-utveckling-med-javascript/steg-1-vagval/) on the course site for more details!
