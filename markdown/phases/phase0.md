@@ -1,1 +1,1 @@
-prep phase woo
+At dawn, we begin by familiarizing ourselves with our surroundings. What exactly needs to be done is outlined at the [Steg 0 page](https://coursepress.lnu.se/kurs/ria-utveckling-med-javascript/steg-1-kratta-manegen/prep phase woo) on the course site.
