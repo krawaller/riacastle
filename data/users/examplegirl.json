@@ -9,7 +9,7 @@
 	"blog": "http://foo.bar.com",
 	"actions": [
 		{"type":"join","when":"2013-07-21T14:25"},
-		{"type":"complete","phase":"phase0","when":"2013-08-02T04:31"},
+		{"type":"complete","phase":"phase0","when":"2013-08-02T04:31","url":"http://example.com/myblogpostaboutstep0.html"},
 		{"type":"thank","when":"2013-10-12T09:25","target":"mrexample","url":"http://woooop"}
 	]
 }
