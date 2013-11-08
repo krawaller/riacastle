@@ -3,6 +3,9 @@
 	"name": "Mr Example",
 	"icon": "undead-skeletal$archer",
 	"repo": "http://foo.bar.com",
+	"shortdesc": "JS veteran from Starling City",
+	"project": "A CSS triangle paint app",
+	"research": "CSS shapes",
 	"blog": "http://foo.bar.com",
 	"actions": [
 		{"type":"join","when":"2013-07-12T17:02","whobonus":5},

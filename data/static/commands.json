@@ -9,7 +9,7 @@
 		"whocoin": 3,
 		"text":"added resource",
 		"icon":"https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/items/chest",
-		"description":"With this command you add a link to a resource you appreciate.",
+		"description":"With this command you add a resource you appreciate to the Library, to be shared by your fellow Guild members",
 		"args": {
 			"id": "The id you want to give your new resource",
 			"name": "The display name of the new resource",
@@ -72,6 +72,15 @@
 		"description": "When you have been deemed worthy of an item you've yearned to wield, use this command to fulfill your wishes!",
 		"args": {
 			"gear": "The id of the equipment."
+		}
+	},
+	"brag": {
+		"whocoin": 4,
+		"text": "brags",
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/attacks/fist-human",
+		"description": "Having slayed a particularly stubborn bug or solved a hard problem, collect the admirations of your peers through this command!",
+		"args": {
+			"url": "The full URL to the commit on Github containing your deed. For full effect, this commit should be commented, explaining your greatness in detail!"
 		}
 	}
 }

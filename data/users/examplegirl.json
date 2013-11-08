@@ -2,6 +2,9 @@
 	"example": true,
 	"name": "Example Girl",
 	"icon": "orcs$warlord",
+	"shortdesc": "JS blackbelt-wannabe from Somewhere City",
+	"project": "A ToDo-list because I'm lazy like that",
+	"research": "No idea yet, sorry!",
 	"repo": "http://foo.bar.com",
 	"blog": "http://foo.bar.com",
 	"actions": [

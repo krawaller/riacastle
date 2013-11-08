@@ -40,7 +40,7 @@
 		"route":"armoury/:id",
 		"section":"armoury",
 		"actions":[{"matchesid":"gear"}],
-		"closeuptext": "equipment",
+		"closeup": "equipment",
 		"nomarkdown":true
 	},
 	"library": {

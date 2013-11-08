@@ -22,5 +22,9 @@
 	"baneblade": {
 		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/attacks/baneblade",
 		"name": "undead blade"
+	},
+	"precisionbow": {
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/attacks/crossbow-human",
+		"name": "functional crossbow"
 	}
 }

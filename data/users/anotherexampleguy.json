@@ -2,6 +2,9 @@
 	"example": true,
 	"name": "Another Example Guy",
 	"icon": "human-loyalists$masterbowman",
+	"shortdesc": "Fictious JS newbie from Whatevertown!",
+	"project": "TicTacToe!",
+	"research": "Web workers",
 	"repo": "http://foo.bar.com",
 	"blog": "http://foo.bar.com",
 	"actions": [
