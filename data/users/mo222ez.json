@@ -1,0 +1,21 @@
+{
+	"name": "Mikael Östman",
+	"icon": "undead$wraith-s",
+	"shortdesc": "Soon-to-be Backbone ninja",
+	"project": "To be decided...",
+	"research": "To be decided...",
+	"repo": "https://github.com/mo222ez/riaprojekt2013",
+	"blog": "http://mo222ez.calepin.co/",
+	"actions": [
+		{
+			"type": "join",
+			"when": "2013-11-08T18:30"
+		},
+		{
+			"type": "complete",
+			"when": "2013-11-08T18:30",
+			"phase": "phase0",
+			"url": "http://mo222ez.calepin.co/steg-0-kratta-manegen.html"
+		}
+	]
+}
