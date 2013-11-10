@@ -81,7 +81,7 @@
 		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/attacks/fist-human",
 		"description": "Having slayed a particularly stubborn bug or solved a hard problem, collect the admirations of your peers through this command!",
 		"args": {
-			"url": "The full URL to the commit on Github containing your deed. For full effect, this commit should be commented, explaining your greatness in detail!"
+			"url": "The full URL to the issue on Github containing your deed. For full effect this issue should be commented, explaining your greatness in detail!"
 		}
 	}
 }

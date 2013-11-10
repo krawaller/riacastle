@@ -1,0 +1,19 @@
+{
+	"name": "David Waller",
+	"icon": "human-magi$elder-mage",
+	"shortdesc": "The Guild Leader",
+	"project": "Guiding the members to victory",
+	"research": "BDD and functional JS",
+	"repo": "https://github.com/krawaller/riacastle",
+	"blog": "http://krawaller.github.io/krablog",
+	"actions": [
+		{
+			"type": "join",
+			"when": "2013-08-20T18:30"
+		},
+		{"type":"addresource","id":"functionaljs","name":"Functional JS","url":"http://blog.fogus.me/2013/03/20/fun-js/","whobonus":2,"when":"2013-09-01T14:26","shortdesc":"An excellent book for the JS ninjas!"},
+		{"type":"addresource","id":"devbbbapps","name":"Developing Backbone JS apps","url":"http://shop.oreilly.com/product/0636920025344.do","when":"2013-09-02T15:01","shortdesc":"A thorough book about Backbone fundamentals."},
+		{"type":"addresource","id":"tddjs","name":"Test-driven JS development","url":"http://tddjs.com/","when":"2013-09-04T08:56","shortdesc":"By far the best book on unit testing in JS."}
+	]
+}
+
