@@ -18,18 +18,6 @@
 	"phase4": {
 		"name": "fourth phase",
 		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/misc/schedule-firstwatch"
-	},
-	"phase5": {
-		"name": "fifth phase",
-		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/misc/schedule-secondwatch"
-	},
-	"phase6": {
-		"name": "first descent",
-		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/misc/schedule-underground-illum"
-	},
-	"phase7": {
-		"name": "second descent",
-		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/misc/schedule-underground"
 	}
 }
 
