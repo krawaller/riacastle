@@ -1,0 +1,21 @@
+{
+	"name": "Jesper Tullberg",
+	"icon": "monsters$giant-rat",
+	"shortdesc": "code monkey",
+	"project": "TBA",
+	"research": "TBA",
+	"repo": "https://github.com/jt222dg/ria",
+	"blog": "http://scriptogr.am/jt222dg",
+	"actions": [
+		{
+			"type": "join",
+			"when": "2013-11-10T22:32"
+		},
+		{
+			"type": "complete",
+			"when": "2013-11-10T22:32",
+			"phase": "phase0",
+			"url": "http://scriptogr.am/jt222dg/post/ria-utveckling-med-javascript"
+		}
+	]
+}
