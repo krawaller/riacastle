@@ -1,0 +1,22 @@
+{
+	"name": "Emil Lindau",
+	"icon": "monsters$giant-mudcrawler",
+	"shortdesc": "Not all who frontend are lost. But I am",
+	"project": "NON ZERO INITIATIVE",
+	"research": "TBA",
+	"repo": "https://github.com/emillindau/2DV407_App.git",
+	"blog": "http://scriptogr.am/lindau",
+	"actions": [
+		{
+			"type": "join",
+			"when": "2013-11-11T14:00"
+		},
+		{
+			"type": "complete",
+			"when": "2013-11-11T14:00",
+			"phase": "phase0",
+			"url": "http://scriptogr.am/lindau/post/kratta-manegen"
+		}
+	]
+}
+
