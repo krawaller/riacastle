@@ -1,0 +1,21 @@
+{
+	"name": "Albin Wahlstrand",
+	"icon": "trolls$whelp",
+	"shortdesc": "Noob",
+	"project": "TBC",
+	"research": "TBC",
+	"repo": "https://github.com/snacky2775/ria-utv",
+	"blog": "http://scriptogr.am/snacky2775/",
+	"actions": [
+		{
+			"type": "join",
+			"when": "2013-11-11T14:27"
+		},
+		{
+			"type": "complete",
+			"when": "2013-11-11T14:27",
+			"phase": "phase0",
+			"url": "http://scriptogr.am/snacky2775/post/ria-1"
+		}
+	]
+}
