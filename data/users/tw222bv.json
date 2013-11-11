@@ -1,0 +1,21 @@
+{
+	"name": "Tomas Wallin",
+	"icon": "trolls$whelp",
+	"shortdesc": "Lazy gamer",
+	"project": "TBC",
+	"research": "TBC",
+	"repo": "https://github.com/tw222bv/RIA-projektet",
+	"blog": "http://scriptogr.am/tw222bv/",
+	"actions": [
+		{
+			"type": "join",
+			"when": "2013-11-11T13:26"
+		},
+		{
+			"type": "complete",
+			"when": "2013-11-11T13:26",
+			"phase": "phase0",
+			"url": "http://scriptogr.am/tw222bv/post/forsta-inlagget-ria-utveckling-med-javascript"
+		}
+	]
+}
