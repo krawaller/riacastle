@@ -1,0 +1,21 @@
+{
+    "name": "Rickard Hansson",
+    "icon": "monsters$mudcrawler",
+    "shortdesc": "Faith, where are you?",
+    "project": "TBA",
+    "research": "TBA",
+    "repo": "https://github.com/hanssonr/2DV407",
+    "blog": "http://ria.yunsit.se",
+    "actions": [
+        {
+            "type": "join",
+            "when": "2013-11-11T22:30"
+        },
+        {
+            "type": "complete",
+            "when": "2013-11-11T22:30",
+            "phase": "phase0",
+            "url": "http://ria.yunsit.se/manegekrattaren/"
+        }
+    ]
+}
