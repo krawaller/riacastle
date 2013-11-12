@@ -1,0 +1,16 @@
+{
+	"name": "Christian Ulf",
+	"icon": "elves-wood$sylph",
+	"shortdesc": "snäll",
+	"project": "...",
+	"research": "...",
+	"repo": "https://github.com/cu222ai/JS-RIA",
+	"blog": "http://scriptogr.am/culf",
+	"actions": [
+		{
+			"type": "join",
+			"when": "2013-11-12T13:45"
+		}
+		
+	]
+}
