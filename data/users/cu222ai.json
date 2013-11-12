@@ -1,7 +1,7 @@
 {
 	"name": "Christian Ulf",
 	"icon": "elves-wood$sylph",
-	"shortdesc": "snäll",
+	"shortdesc": "tba",
 	"project": "...",
 	"research": "...",
 	"repo": "https://github.com/cu222ai/JS-RIA",
@@ -10,6 +10,12 @@
 		{
 			"type": "join",
 			"when": "2013-11-12T13:45"
+		},
+		{
+			"type": "complete",
+			"when": "2013-11-12T15:46",
+			"phase": "phase0",
+			"url": "http://scriptogr.am/culf/post/presentation-christian-ulf-ria-js"
 		}
 		
 	]
