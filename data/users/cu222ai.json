@@ -10,6 +10,12 @@
 		{
 			"type": "join",
 			"when": "2013-11-12T13:45"
+		},
+		{
+			"type": "complete",
+			"when": "2013-11-12T15:46",
+			"phase": "phase0",
+			"url": "http://scriptogr.am/culf/post/presentation-christian-ulf-ria-js"
 		}
 		
 	]
