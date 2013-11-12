@@ -1,0 +1,21 @@
+{
+	"name": "Per Magnusson",
+	"icon": "nagas$fighter",
+	"shortdesc": "...",
+	"project": "...",
+	"research": "...",
+	"repo": "https://github.com/permag/RIA-project",
+	"blog": "http://scriptogr.am/pm222br",
+	"actions": [
+		{
+			"type": "join",
+			"when": "2013-11-13T00:45"
+		},
+		{
+			"type": "complete",
+			"when": "2013-11-13T00:45",
+			"phase": "phase0",
+			"url": "http://scriptogr.am/pm222br/post/steg-0-kratta-manegen"
+		}
+	]
+}
