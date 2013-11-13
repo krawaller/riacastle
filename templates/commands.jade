@@ -14,9 +14,12 @@
 		dd #{description}
 
 
-	if typeof args !== "undefined"
-		h3 Arguments
-		dl.group
-			-for(var t in args)
-				dt #{t}
-				dd #{args[t]}
+	h3 Arguments
+	dl.group
+		-for(var t in args)
+			dt type
+			dd #{id}
+			dt when
+			dd timestamp on format YYYY-MM-DDTHH:MM
+			dt #{t}
+			dd #{args[t]}
