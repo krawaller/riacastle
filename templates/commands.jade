@@ -20,7 +20,7 @@
 		dd #{id}
 		dt when
 		dd timestamp on format YYYY-MM-DDTHH:MM
-		-if typeof args !== "undefined"
+		if typeof args !== "undefined"
 			-for(var t in args)
 				dt #{t}
 				dd #{args[t]}
