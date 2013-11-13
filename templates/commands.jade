@@ -16,10 +16,10 @@
 
 	h3 Arguments
 	dl.group
+		dt type
+		dd #{id}
+		dt when
+		dd timestamp on format YYYY-MM-DDTHH:MM
 		-for(var t in args)
-			dt type
-			dd #{id}
-			dt when
-			dd timestamp on format YYYY-MM-DDTHH:MM
 			dt #{t}
 			dd #{args[t]}
