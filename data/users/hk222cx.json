@@ -1,0 +1,21 @@
+{
+    "name": "Haris Kljajic",
+    "icon": "drakes$armageddon",
+    "shortdesc": "Final Boss",
+    "project": "Slaughter",
+    "research": "HAM",
+    "repo": "https://github.com/devharis/RIA-development",
+    "blog": "http://scriptogr.am/devharis/archive",
+    "actions": [
+        {
+            "type": "join",
+            "when": "2013-11-12T13:37"
+        },
+        {
+            "type": "complete",
+            "when": "2013-11-12T13:37",
+            "phase": "phase0",
+            "url": "http://scriptogr.am/devharis/post/ria-utveckling-med-javascript"
+        }
+    ]
+}
