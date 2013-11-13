@@ -1,0 +1,22 @@
+{
+	"name": "Edin Skeja",
+	"icon": "monsters$seaserpent",
+	"shortdesc": "the newbie",
+	"project": "tba",
+	"research": "tba",
+	"repo": "https://github.com/EdinSkeja/2DV407_Project.git",
+	"blog": "http://es222kj.calepin.co/",
+	"actions": [
+		{
+			"type": "join",
+			"when": "2013-11-13T15:30"
+		},
+		{
+			"type": "complete",
+			"when": "2013-11-11T15:30",
+			"phase": "phase0",
+			"url": "http://es222kj.calepin.co/kratta-manegen.html"
+		}
+	]
+}
+
