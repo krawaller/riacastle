@@ -1,0 +1,21 @@
+{
+    "name": "Simon Jonsson",
+    "icon": "elves-wood$ranger",
+    "shortdesc": "Heisenbug!",
+    "project": "TBA",
+    "research": "TBA",
+    "repo": "https://github.com/sj222eu/RIA",
+    "blog": "http://scriptogr.am/sj222eu",
+    "actions": [
+        {
+            "type": "join",
+            "when": "2013-11-14T19:29"
+        },
+        {
+            "type": "complete",
+            "when": "2013-11-14T19:29",
+            "phase": "phase0",
+            "url": "http://scriptogr.am/sj222eu/post/en-slags-introduktion"
+        }
+    ]
+}
