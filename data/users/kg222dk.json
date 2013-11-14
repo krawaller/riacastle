@@ -1,0 +1,21 @@
+{
+    "name": "Kim Grönqvist",
+    "icon": "human-peasants$peasant",
+    "shortdesc": "Kim",
+    "project": "TBA",
+    "research": "TBA",
+    "repo": "https://github.com/kimgronqvist/lnu-ria",
+    "blog": "http://www.kimgronqvist.se",
+    "actions": [
+        {
+            "type": "join",
+            "when": "2013-11-14T22:55"
+        },
+        {
+            "type": "complete",
+            "when": "2013-11-14T23:30",
+            "phase": "phase0",
+            "url": "http://www.kimgronqvist.se/articles/steg-0/"
+        }
+    ]
+}
