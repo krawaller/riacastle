@@ -1,0 +1,21 @@
+{
+    "name": "Adam Gustafsson",
+    "icon": "elves-wood$champion",
+    "shortdesc": "Cool beans",
+    "project": "TBA",
+    "research": "TBA",
+    "repo": "https://github.com/ag222hd/Application",
+    "blog": "http://scriptogr.am/ag222hd",
+    "actions": [
+        {
+            "type": "join",
+            "when": "2013-11-13T20:05"
+        },
+        {
+            "type": "complete",
+            "when": "2013-11-13T20:05",
+            "phase": "phase0",
+            "url": "http://scriptogr.am/ag222hd/post/steg-0-kratta-manegen"
+        }
+    ]
+}
