@@ -1,0 +1,21 @@
+{
+    "name": "Johan Wibjer",
+    "icon": "goblins$knight",
+    "shortdesc": "Who invented the cherry??",
+    "project": "TBA",
+    "research": "TBA",
+    "repo": "https://github.com/wibjer/-2DV407.git",
+    "blog": "http://jw222ef.calepin.co/",
+    "actions": [
+        {
+            "type": "join",
+            "when": "2013-11-13 T16:39"
+        },
+        {
+            "type": "completed",
+            "when": "2013-11-13 T16:39",
+            "phase": "phase0",
+            "url": "http://jw222ef.calepin.co/steg-0-kratta-manegen.html"
+        }
+    ]
+}
