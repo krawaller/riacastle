@@ -1,0 +1,21 @@
+{
+        "name": "Per Möllmark",
+        "icon": "nagas$fighter",
+        "shortdesc": "...",
+        "project": "To be continued...",
+        "research": "To be continued...",
+        "repo": "https://github.com/pm222cp/ria",
+        "blog": "http://pm222cp.calepin.co/",
+        "actions": [
+                {
+                        "type": "join",
+                        "when": "2013-11-17T23:00"
+                },
+                {
+                        "type": "complete",
+                        "when": "2013-11-17T23:00",
+                        "phase": "phase0",
+                        "url": "http://pm222cp.calepin.co/uppgift-1-kratta-manegen.html"
+                }
+        ]
+}
