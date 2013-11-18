@@ -1,0 +1,21 @@
+{
+	"name": "Gustav Rosenlund",
+	"icon": "dwarves$fighter",
+	"shortdesc": "yolo",
+	"project": "none yet",
+	"research": "none yet",
+	"repo": "https://github.com/gustavrosenlund/gr222ap",
+	"blog": "http://scriptogr.am/gr222ap",
+	"actions": [
+		{
+			"type": "join",
+			"when": "2013-11-18T15:43"
+		},
+		{
+			"type": "complete",
+			"when": "2013-11-18T15:43",
+			"phase": "phase0",
+			"url": "http://scriptogr.am/gr222ap/post/-steg-0"
+		}
+	]
+}
