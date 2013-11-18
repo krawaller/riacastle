@@ -1,0 +1,21 @@
+{
+    "name": "William Tombs",
+    "icon": "drakes$armageddon",
+    "shortdesc": "Kingest of them all",
+    "project": "TBA",
+    "research": "TBA",
+    "repo": "https://github.com/wtomba/RIA",
+    "blog": "http://wtomba.calepin.co/",
+    "actions": [
+        {
+            "type": "join",
+            "when": "2013-11-18T14:05"
+        },
+        {
+            "type": "complete",
+            "when": "2013-11-18T14:19",
+            "phase": "phase0",
+            "url": "wtomba.calepin.co"
+        }
+    ]
+}
