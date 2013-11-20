@@ -1,0 +1,21 @@
+{
+        "name": "Andreas Söderström",
+        "icon": "woses$wose-elder",
+        "shortdesc": "...",
+        "project": "TODO",
+        "research": "TODO",
+        "repo": "https://github.com/andreassoderstrom/riaproject",
+        "blog": "http://as222sy.calepin.co/",
+        "actions": [
+                {
+                        "type": "join",
+                        "when": "2013-11-20T12:00"
+                },
+                {
+                        "type": "complete",
+                        "when": "2013-11-20T23:00",
+                        "phase": "phase0",
+                        "url": "http://as222sy.calepin.co/my-first-post.html"
+                }
+        ]
+}
