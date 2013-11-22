@@ -16,6 +16,22 @@
             "when": "2013-11-11T22:30",
             "phase": "phase0",
             "url": "http://ria.yunsit.se/manegekrattaren/"
+        },
+        {
+            "type": "complete",
+            "when": "2013-11-22T15:35",
+            "phase": "phase1",
+            "url": "http://ria.yunsit.se/steg1-ingen-atervando/"
+        },
+        {
+            "type": "yearn",
+            "when": "2013-11-22T15:35",
+            "gear": "baneblade"
+        },
+        {
+            "type": "yearn",
+            "when": "2013-11-22T15:35",
+            "gear": "jadenecklace"
         }
     ]
 }
