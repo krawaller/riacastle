@@ -16,6 +16,17 @@
 			"when": "2013-11-11T14:27",
 			"phase": "phase0",
 			"url": "http://scriptogr.am/snacky2775/post/ria-1"
+		},
+		{
+			"type": "complete",
+			"when": "2013-11-22T15:27",
+			"phase": "phase1",
+			"url": "http://scriptogr.am/snacky2775/post/foodlist-hello-world"
+		},
+		{
+            		"type": "yearn",
+            		"when": "2013-11-22T14:00",
+            		"gear": "jadenecklace"
 		}
 	]
 }
