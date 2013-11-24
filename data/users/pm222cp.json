@@ -16,6 +16,12 @@
                         "when": "2013-11-17T23:00",
                         "phase": "phase0",
                         "url": "http://pm222cp.calepin.co/uppgift-1-kratta-manegen.html"
+                },
+                {
+                        "type": "complete",
+                        "when": "2013-11-24T20:30",
+                        "phase": "phase1",
+                        "url": "http://pm222cp.calepin.co/uppgift-1-hello-world.html"
                 }
         ]
 }
