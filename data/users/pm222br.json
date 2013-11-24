@@ -16,6 +16,12 @@
 			"when": "2013-11-13T00:45",
 			"phase": "phase0",
 			"url": "http://scriptogr.am/pm222br/post/steg-0-kratta-manegen"
+		},
+		{
+			"type": "complete",
+			"when": "2013-11-24T10:11",
+			"phase": "phase1",
+			"url": "http://scriptogr.am/pm222br/post/steg-1-hello-world"
 		}
 	]
 }
