@@ -16,6 +16,33 @@
             "when": "2013-11-12T13:37",
             "phase": "phase0",
             "url": "http://scriptogr.am/devharis/post/ria-utveckling-med-javascript"
+        },
+
+	{
+		"type": "complete",
+		"when": "2013-11-24T22:02",
+		"phase": "phase1",
+		"url": "http://scriptogr.am/devharis/post/hello-world-from-solid-bulldozer"
+	},
+	{
+            "type": "yearn",
+            "when": "2013-11-20T22:02",
+            "gear": "jadenecklace"
+        },
+        {
+            "type": "yearn",
+            "when": "2013-11-20T22:02",
+            "gear": "baneblade"
+        },
+        {
+            "type": "yearn",
+            "when": "2013-11-20T22:02",
+            "gear": "timestaff"
+        },
+        {
+            "type": "yearn",
+            "when": "2013-11-20T22:02",
+            "gear": "lovepotion"
         }
     ]
 }
