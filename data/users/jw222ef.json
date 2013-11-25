@@ -9,13 +9,27 @@
     "actions": [
         {
             "type": "join",
-            "when": "2013-11-13 T16:39"
+            "when": "2013-11-13T16:39"
         },
         {
             "type": "completed",
-            "when": "2013-11-13 T16:39",
+            "when": "2013-11-13T16:39",
             "phase": "phase0",
             "url": "http://jw222ef.calepin.co/steg-0-kratta-manegen.html"
+        },
+        
+        {
+            "type": "completed",
+            "when": "2013-11-25T14:34",
+            "phase": "phase1",
+            "url": "http://jw222ef.calepin.co/steg-1-hej-varld.html"
+        },
+        
+        {
+            "type": "yearn",
+            "when": "2013-11-25T14:34",
+            "name": "baneblade"
+          
         }
     ]
 }
