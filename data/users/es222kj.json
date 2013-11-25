@@ -26,7 +26,12 @@
 		{
 		    "type": "yearn",
 		    "when": "2013-11-24T20:00",
-		    "name": "baneblade"
+		    "gear": "baneblade"
+		},
+		{
+		    "type": "yearn",
+		    "when": "2013-11-24T20:00",
+		    "gear": "jadenecklace"
 		}
 	]
 }
