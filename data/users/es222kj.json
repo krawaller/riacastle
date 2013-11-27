@@ -2,7 +2,7 @@
 	"name": "Edin Skeja",
 	"icon": "monsters$seaserpent",
 	"shortdesc": "the newbie",
-	"project": "tba",
+	"project": "Watch it later",
 	"research": "tba",
 	"repo": "https://github.com/EdinSkeja/2DV407_Project.git",
 	"blog": "http://es222kj.calepin.co/",
@@ -16,6 +16,22 @@
 			"when": "2013-11-13T15:30",
 			"phase": "phase0",
 			"url": "http://es222kj.calepin.co/kratta-manegen.html"
+		},
+		{
+			"type": "complete",
+			"when": "2013-11-24T20:00",
+			"phase": "phase1",
+			"url": "http://es222kj.calepin.co/steg-1-hello-world.html"
+		},
+		{
+		    "type": "yearn",
+		    "when": "2013-11-24T20:00",
+		    "gear": "baneblade"
+		},
+		{
+		    "type": "yearn",
+		    "when": "2013-11-24T20:00",
+		    "gear": "jadenecklace"
 		}
 	]
 }
