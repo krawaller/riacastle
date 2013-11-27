@@ -1,0 +1,21 @@
+{
+    "name": "Oskar Norling",
+    "icon": "drakes$armageddon",
+    "shortdesc": "O to the skar.",
+    "project": "Coming soon",
+    "research": "Coming soon",
+    "repo": "https://github.com/oskarno/RIA-development",
+    "blog": "http://scriptogr.am/on22ax/archive",
+    "actions": [
+        {
+            "type": "join",
+            "when": "2013-11-18T17:14"
+        },
+        {
+            "type": "complete",
+            "when": "2013-11-18T17:14",
+            "phase": "phase0",
+            "url": "http://scriptogr.am/on22ax/post/ett-forsta-inlagg"
+        }
+    ]
+}
