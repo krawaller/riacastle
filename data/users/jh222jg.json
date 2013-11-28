@@ -1,5 +1,5 @@
 {
- "name": "Johan",
+ "name": "Johan Holmberg",
  "icon": "dwarves$fighter",
  "shortdesc": "-.-",
  "project": "none yet",
@@ -17,6 +17,12 @@
    "when": "2013-11-20T20:00",
    "phase": "phase0",
    "url": "http://scriptogr.am/jh222jg/post/steg-0"
+  },
+  {
+   "type": "complete",
+   "when": "2013-11-28T22:00",
+   "phase": "phase1",
+   "url": "http://scriptogr.am/jh222jg/post/steg-1"
   }
  ]
  
