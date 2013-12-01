@@ -17,26 +17,31 @@
 			"phase": "phase0",
 			"url": "http://scriptogr.am/tw222bv/post/forsta-inlagget-ria-utveckling-med-javascript"
 		},
-               {
-                        "type": "complete",
-                        "when": "2013-11-22T14:00",
-                        "phase": "phase1",
-                        "url": "http://scriptogr.am/tw222bv/post/steg-1-hello-world"
-                },
-                {
+        {
+            "type": "complete",
+            "when": "2013-11-22T14:00",
+            "phase": "phase1",
+            "url": "http://scriptogr.am/tw222bv/post/steg-1-hello-world"
+        },
+        {
             "type": "yearn",
             "when": "2013-11-22T14:00",
             "gear": "hammer"
-        	},
+       	},
 		{
             "type": "yearn",
             "when": "2013-11-22T14:00",
             "gear": "jadenecklace"
-        	},
+       	},
 		{
             "type": "yearn",
             "when": "2013-11-22T14:00",
             "gear": "baneblade"
-        	}
+        },
+        {
+            "type": "write",
+            "when": "2013-12-01T18:20",
+            "url": "http://scriptogr.am/tw222bv/post/ria-3rd-blog-post"
+        }
 	]
 }
