@@ -43,6 +43,11 @@
             "type": "yearn",
             "when": "2013-11-20T22:02",
             "gear": "lovepotion"
+        },
+        {
+            "type": "write",
+            "when": "2013-12-02T23:34",
+            "url": "http://scriptogr.am/devharis/post/det-gar-sakta-framat-borjar-likna-nagot"
         }
     ]
 }
