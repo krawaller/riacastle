@@ -32,6 +32,11 @@
             "type": "yearn",
             "when": "2013-11-20T22:00",
             "gear": "baneblade"
+        },
+        {
+        	"type": "write",
+        	"when": "2013-12-02T23:42",
+        	"url": "http://scriptogr.am/lindau/post/karma-i-dubbel-bemarkelse"
         }
 	]
 }
