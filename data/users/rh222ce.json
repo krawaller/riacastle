@@ -42,6 +42,12 @@
             "type": "write",
             "when": "2013-12-04T08:41",
             "url": "http://ria.yunsit.se/fortsatta-eller-vanda-om/"
+        },
+        {
+            "type": "thank",
+            "when": "2013-12-08T15:52",
+            "target": "sj222eu",
+            "url": "https://github.com/hanssonr/2DV407/pull/6"
         }
     ]
 }
