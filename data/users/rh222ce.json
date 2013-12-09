@@ -2,7 +2,7 @@
     "name": "Rickard Hansson",
     "icon": "monsters$mudcrawler",
     "shortdesc": "Faith, where are you?",
-    "project": "TBA",
+    "project": "t:jls",
     "research": "TBA",
     "repo": "https://github.com/hanssonr/2DV407",
     "blog": "http://ria.yunsit.se",
@@ -48,6 +48,12 @@
             "when": "2013-12-08T15:52",
             "target": "sj222eu",
             "url": "https://github.com/hanssonr/2DV407/pull/6"
+        },
+        {
+            "type": "thank",
+            "when": "2013-12-09T20:30",
+            "target": "el222hv",
+            "url": "https://github.com/hanssonr/2DV407/pull/8"
         }
     ]
 }
