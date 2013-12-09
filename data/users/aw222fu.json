@@ -31,7 +31,18 @@
         	{
             		"type": "write",
             		"when": "2013-12-01T15:42",
-            		"url": "http://scriptogr.am/sj222eu/post/implementation"
+            		"url": "http://scriptogr.am/sj222eu/post/implementation-1st-week."
+        	},
+		{
+            		"type": "write",
+            		"when": "2013-12-08T22:21",
+            		"url": "http://scriptogr.am/sj222eu/post/implementation-2nd-week."
+        	},
+		{
+            		"type": "thank",
+            		"when": "2013-12-08T22:21",
+			"target": "zl222ag",
+            		"url": "https://github.com/aw222fu/FoodApplication/pull/5"
         	}
 	]
 }
