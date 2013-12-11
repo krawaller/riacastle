@@ -4,8 +4,8 @@
     "shortdesc": "Kingest of them all",
     "project": "TBA",
     "research": "TBA",
-    "repo": "https://github.com/wtomba/RIA",
-    "blog": "http://wtomba.calepin.co/",
+    "repo": "https://github.com/wtomba/FileUpload",
+    "blog": "http://scriptogr.am/wtomba",
     "actions": [
         {
             "type": "join",
@@ -16,6 +16,17 @@
             "when": "2013-11-18T14:19",
             "phase": "phase0",
             "url": "http://scriptogr.am/wtomba/post/ria-utveckling-med-javascript"
+        },
+        {
+            "type": "complete",
+            "when": "2013-12-05T22:02",
+            "phase": "phase1",
+            "url": "http://scriptogr.am/wtomba/post/fileupload"
+        },
+        {
+            "type": "write",
+            "when": "2013-12-11T17:00",
+            "url": "http://scriptogr.am/wtomba/post/implementation"
         }
     ]
 }
