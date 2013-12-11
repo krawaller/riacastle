@@ -1,0 +1,27 @@
+{
+	"name": "Isak Utegård",
+	"icon": "ogres$young-ogre",
+	"shortdesc": "I'm Isak",
+	"project": "http://utegard.github.io/riaproject/",
+	"research": "Coming soon",
+	"repo": "https://github.com/utegard/riaproject",
+	"blog": "http://iu222ae.calepin.co/",
+	"actions": [
+		{
+			"type": "join",
+			"when": "2013-11-14T13:15"
+		},
+		{
+			"type": "complete",
+			"when": "2013-11-14T13:15",
+			"phase": "phase0",
+			"url": "http://iu222ae.calepin.co/steg-0-kratta-manegen.html"
+		},
+		{
+			"type": "complete",
+			"when": "2013-11-27T13:25",
+			"phase": "phase1",
+			"url": "http://iu222ae.calepin.co/steg-1-hello-world.html"
+		}
+	]
+}

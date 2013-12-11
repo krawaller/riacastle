@@ -16,6 +16,12 @@
 			"when": "2013-11-08T18:30",
 			"phase": "phase0",
 			"url": "http://mo222ez.calepin.co/steg-0-kratta-manegen.html"
+		},
+		{
+			"type": "complete",
+			"when": "2013-11-26T11:50",
+			"phase": "phase1",
+			"url": "http://mo222ez.calepin.co/steg-1-hello-world.html"
 		}
 	]
 }

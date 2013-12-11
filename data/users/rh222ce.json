@@ -2,7 +2,7 @@
     "name": "Rickard Hansson",
     "icon": "monsters$mudcrawler",
     "shortdesc": "Faith, where are you?",
-    "project": "TBA",
+    "project": "t:jls",
     "research": "TBA",
     "repo": "https://github.com/hanssonr/2DV407",
     "blog": "http://ria.yunsit.se",
@@ -16,6 +16,44 @@
             "when": "2013-11-11T22:30",
             "phase": "phase0",
             "url": "http://ria.yunsit.se/manegekrattaren/"
+        },
+        {
+            "type": "complete",
+            "when": "2013-11-22T15:35",
+            "phase": "phase1",
+            "url": "http://ria.yunsit.se/steg1-ingen-atervando/"
+        },
+        {
+            "type": "yearn",
+            "when": "2013-11-22T15:35",
+            "gear": "baneblade"
+        },
+        {
+            "type": "yearn",
+            "when": "2013-11-22T15:35",
+            "gear": "jadenecklace"
+        },
+        {
+            "type": "write",
+            "when": "2013-11-26T21:43",
+            "url": "http://ria.yunsit.se/knacka-betonggolv/"
+        },
+        {
+            "type": "write",
+            "when": "2013-12-04T08:41",
+            "url": "http://ria.yunsit.se/fortsatta-eller-vanda-om/"
+        },
+        {
+            "type": "thank",
+            "when": "2013-12-08T15:52",
+            "target": "sj222eu",
+            "url": "https://github.com/hanssonr/2DV407/pull/6"
+        },
+        {
+            "type": "thank",
+            "when": "2013-12-09T20:30",
+            "target": "el222hv",
+            "url": "https://github.com/hanssonr/2DV407/pull/8"
         }
     ]
 }

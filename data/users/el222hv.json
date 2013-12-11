@@ -16,7 +16,28 @@
 			"when": "2013-11-11T14:00",
 			"phase": "phase0",
 			"url": "http://scriptogr.am/lindau/post/kratta-manegen"
-		}
+		},
+		{
+			"type": "complete",
+			"when": "2013-11-20T22:00",
+			"phase": "phase1",
+			"url": "http://scriptogr.am/lindau/post/steg-1-pa-god-vag"
+		},
+		{
+            "type": "yearn",
+            "when": "2013-11-20T22:00",
+            "gear": "lovepotion"
+        },
+        {
+            "type": "yearn",
+            "when": "2013-11-20T22:00",
+            "gear": "baneblade"
+        },
+        {
+        	"type": "write",
+        	"when": "2013-12-02T23:42",
+        	"url": "http://scriptogr.am/lindau/post/karma-i-dubbel-bemarkelse"
+        }
 	]
 }
 

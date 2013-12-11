@@ -2,7 +2,7 @@
 	"name": "Zlatko Ladan",
 	"icon": "woses$wose-ancient",
 	"shortdesc": "ancient tree creature",
-	"project": "...",
+	"project": "Words, letters, write them...",
 	"research": "...",
 	"repo": "https://github.com/zl222ag/RIA",
 	"blog": "http://zl222ag.calepin.co/",
@@ -16,6 +16,32 @@
 			"when": "2013-11-11T22:51",
 			"phase": "phase0",
 			"url": "http://zl222ag.calepin.co/phase0.html"
+		},
+		{
+			"type": "complete",
+			"when": "2013-11-28T23:13",
+			"phase": "phase1",
+			"url": "http://zl222ag.calepin.co/phase1.html"
+		},
+		{
+			"type": "yearn",
+			"when": "2013-11-29T13:45",
+			"gear": "baneblade"
+		},
+		{
+			"type": "yearn",
+			"when": "2013-11-29T14:05",
+			"gear": "jadenecklace"
+		},
+		{
+			"type": "write",
+			"when": "2013-12-01T23:55",
+			"url": "http://zl222ag.calepin.co/phase-2-forsta-veckan.html"
+		},
+		{
+			"type": "write",
+			"when": "2013-12-08T22:03",
+			"url": "http://zl222ag.calepin.co/phase-2-andra-veckan.html"
 		}
 	]
 }

@@ -42,3 +42,5 @@ require.config({
 		"bb-loc": ["purebackbone","pureunderscore"]
 	}
 });
+
+require(["src/app"],function(App){ App.start(); });
