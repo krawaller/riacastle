@@ -2,6 +2,7 @@ console.log("...LOADING bootstrap.js");
 
 //We configure require with paths to our modules, so we can reference them by name when we include them.
 require.config({
+	urlArgs: "bust=" + (new Date()).getTime(),
 	paths: {
 		// require loader plugins
 		cs: "lib/require/load_coffeescript-v0.4.3",

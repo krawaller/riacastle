@@ -1,0 +1,1 @@
+The Pathfinder bow is granted those who implement a proper **navigation** in their app, using a router and a system for switching between views.

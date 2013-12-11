@@ -26,5 +26,13 @@
 	"precisionbow": {
 		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/attacks/crossbow-human",
 		"name": "functional crossbow"
-	}
+	},
+	"pathfinder": {
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/attacks/bow-short-reinforced",
+		"name": "pathfinder bow"
+	},
+	"forcefield": {
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/attacks/faerie-fire",
+		"name": "forcefield"
+	} 
 }
