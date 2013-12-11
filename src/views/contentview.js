@@ -31,7 +31,8 @@ define([ "backbone","jquery","underscore","data/query","jade!templates/object","
 					icon: objdef.icon,
 					link: "#"+link+"/"+objdef.id,
 					text: objdef.name || objdef.text,
-					category: contentdef.from
+					category: contentdef.from,
+					score: objdef.score
 				})+"</li>";
 			},"<div class='centerbox'><ul class='horisontallist'>",this)+"</ul></div>";
 		},
