@@ -1,0 +1,1 @@
+The Forcefield spell is taught to those who make a **distribution version** of their app. This means maybe having a build step that does some compiling using Grunt, or manually executing r.js or similar.
