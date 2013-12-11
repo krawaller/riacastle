@@ -34,6 +34,16 @@
 			"gear": "jadenecklace"
 		},
 		{
+			"type": "yearn",
+			"when": "2013-12-11T12:21",
+			"gear": "pathfinder"
+		},
+		{
+			"type": "yearn",
+			"when": "2013-12-11T12:21",
+			"gear": "forcefield"
+		},
+		{
 			"type": "write",
 			"when": "2013-12-01T23:55",
 			"url": "http://zl222ag.calepin.co/phase-2-forsta-veckan.html"
