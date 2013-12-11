@@ -175,7 +175,7 @@ div.insteadofpic {
 	clear: left;
 }
 
-.fixcoin {
+.fixcoin, .score {
 	position: absolute;
 	right: 3px;
 	top: 3px;

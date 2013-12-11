@@ -12,6 +12,8 @@ if typeof link !== 'undefined'
 			span.fixcoin +#{fixcoin}
 		if (typeof(bonuscoin) !== 'undefined' && bonuscoin > 0)
 			span.bonuscoin +#{bonuscoin}
+		if (typeof(score) !== 'undefined')
+			span.score #{score}
 		span.name !{(text||"moo").replace(/ /g,"<br />")+"<br /><br />"}
 else
 	.object.group.retro
@@ -26,4 +28,6 @@ else
 			span.fixcoin +#{fixcoin}
 		if (typeof(bonuscoin) !== 'undefined' && bonuscoin > 0)
 			span.bonuscoin +#{bonuscoin}
+		if (typeof(score) !== 'undefined')
+			span.score #{score}
 		span.name !{(text||"moo").replace(/ /g,"<br />")+"<br /><br />"}
