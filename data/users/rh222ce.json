@@ -44,6 +44,11 @@
             "url": "http://ria.yunsit.se/fortsatta-eller-vanda-om/"
         },
         {
+            "type": "write",
+            "when": "2013-12-14T19:02",
+            "url": "http://ria.yunsit.se/helvetet-tur-och-retur/"
+        },
+        {
             "type": "thank",
             "when": "2013-12-08T15:52",
             "target": "sj222eu",
