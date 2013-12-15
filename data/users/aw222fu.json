@@ -43,6 +43,27 @@
             		"when": "2013-12-08T22:21",
 			"target": "zl222ag",
             		"url": "https://github.com/aw222fu/FoodApplication/pull/5"
-        	}
+        	},
+		{
+            		"type": "thank",
+            		"when": "2013-12-15T13:09",
+			"target": "tw222bv",
+            		"url": "https://github.com/aw222fu/FoodApplication/pull/7"
+        	},
+		{
+            		"type": "yearn",
+            		"when": "2013-12-15T13:10",
+            		"gear": "baneblade"
+		},
+		{
+            		"type": "yearn",
+            		"when": "2013-12-15T13:10",
+            		"gear": "pathfinder"
+		},
+		{
+            		"type": "write",
+            		"when": "2013-12-15T13:11",
+            		"url": "http://scriptogr.am/snacky2775/post/implementation-3rd-week"
+        	},
 	]
 }
