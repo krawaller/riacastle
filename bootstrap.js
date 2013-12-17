@@ -12,9 +12,6 @@ require.config({
 		mdown: "lib/require/load_mdown-v0.1.1",
 		withresources: "data/loaders/withresources",
 		usersloader: "data/loaders/usersloader",
-		// app directories
-		markdown: "markdown",
-		templates: "templates",
 		// external dependencies
 		jquery: "lib/jquery/jquery-v2.0.3",
 		pureunderscore: "lib/underscore/underscore-v1.5.1",
