@@ -32,7 +32,27 @@
 		    "type": "yearn",
 		    "when": "2013-11-24T20:00",
 		    "gear": "jadenecklace"
-		}
+		},
+		{
+			"type": "write",
+			"when": "2013-12-02T13:00",
+			"url": "http://es222kj.calepin.co/steg-2-implementering-1a-inlagget.html"
+		},
+		{
+			"type": "write",
+			"when": "2013-12-10T14:30",
+			"url": "http://es222kj.calepin.co/steg-2-implementering-2a-inlagget.html"
+		},
+		{
+			"type": "yearn",
+			"when": "2013-12-17T13:00",
+			"gear": "pathfinder"
+		},
+		{
+			"type": "write",
+			"when": "2013-12-17T13:00",
+			"url": "http://es222kj.calepin.co/steg-2-implementering-3e-inlagget.html"
+		},
 	]
 }
 
