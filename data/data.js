@@ -21,7 +21,7 @@ define(["json!data/static/commands","withresources!equipment","withresources!pag
 			if (page.markdown) { arr.push({type:"text",markdown:page.markdown}); }
 			if (page.closeuptext) { arr.push({type:"text",from:page.closeuptext}); }
 			if (page.closeup) { arr.push({type:"closeup",template:page.jade,from:page.closeup}); }
-			if (page.nav) { arr.push({type:"navlist",from:page.nav}); }
+			if (page.nav) { arr.push({type:"navlist",from:page.nav}); }
 			if (page.actions) { arr.push({type:"actions",filter:page.actions}); }
 			if (page.view) { arr.push({type:"view","view":page.view}); }
 			return _.extend(page,{content:arr});
