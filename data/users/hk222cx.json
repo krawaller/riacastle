@@ -25,25 +25,30 @@
 		"url": "http://scriptogr.am/devharis/post/hello-world-from-solid-bulldozer"
 	},
 	{
-            "type": "yearn",
-            "when": "2013-11-20T22:02",
-            "gear": "jadenecklace"
+        	"type": "yearn",
+        	"when": "2013-11-20T22:02",
+        	"gear": "jadenecklace"
         },
         {
-            "type": "yearn",
-            "when": "2013-11-20T22:02",
-            "gear": "baneblade"
+        	"type": "yearn",
+        	"when": "2013-11-20T22:02",
+        	"gear": "baneblade"
         },
         {
-            "type": "yearn",
-            "when": "2013-11-20T22:02",
-            "gear": "timestaff"
+        	"type": "yearn",
+        	"when": "2013-11-20T22:02",
+        	"gear": "timestaff"
         },
         {
-            "type": "yearn",
-            "when": "2013-11-20T22:02",
-            "gear": "lovepotion"
+        	"type": "yearn",
+        	"when": "2013-11-20T22:02",
+        	"gear": "lovepotion"
         },
+	{
+		"type": "yearn",
+		"when": "2013-12-17T18:21",
+		"gear": "pathfinder"
+	},
         {
             "type": "write",
             "when": "2013-12-02T23:34",
@@ -53,6 +58,11 @@
             "type": "write",
             "when": "2013-12-09T22:21",
             "url": "http://scriptogr.am/devharis/post/andra-veckan-av-implementering-avklarad"
+        },
+	{
+            "type": "write",
+            "when": "2013-12-17T22:21",
+            "url": "http://scriptogr.am/devharis/post/kortfattat-om-veckan-som-varit"
         }
     ]
 }
