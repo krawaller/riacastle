@@ -19,7 +19,7 @@ define([ "backbone","jquery","underscore","data/query","jade!templates/object","
 			console.log("IIIICOOOON",contentdef.from);
 			return "<div class='centerbox'>"+this.objtmpl({
 				icon: this.options.data[contentdef.from][subid].icon,
-				text: this.options.data[contentdef.from][subid].text || this.options.data[contentdef.from][subid].name,
+				text: this.options.data[contentdef.from][subid].text || this.options.data[contentdef.from][subid].name,
 				category: contentdef.from
 			})+"</div>";
 		},
@@ -66,7 +66,7 @@ define([ "backbone","jquery","underscore","data/query","jade!templates/object","
 							bonuscoin: (key=="who"&&actiondef.whobonus)||(key=="target"&&actiondef.targetbonus)||0,
 							icon: d.icon,
 							link: "#"+linkmap[val]+"/"+actiondef[key],
-							text: d.text || d.name,
+							text: d.text || d.name,
 							category: val
 						});
 					}
