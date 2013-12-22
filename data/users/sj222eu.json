@@ -32,6 +32,11 @@
             "type": "write",
             "when": "2013-12-19T00:27",
             "url": "http://scriptogr.am/sj222eu/post/dokumentationen-av-backbone"
-        }
+        },
+        {
+            "type": "write",
+            "when": "2013-12-22T19:05",
+            "url": "http://scriptogr.am/sj222eu/post/omstrukturering"
+        }  
     ]
 }
