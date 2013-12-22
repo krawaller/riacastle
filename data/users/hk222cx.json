@@ -8,14 +8,14 @@
     "blog": "http://scriptogr.am/devharis/archive",
     "actions": [
         {
-            "type": "join",
-            "when": "2013-11-12T13:37"
+         	"type": "join",
+        	"when": "2013-11-12T13:37"
         },
         {
-            "type": "complete",
-            "when": "2013-11-12T13:37",
-            "phase": "phase0",
-            "url": "http://scriptogr.am/devharis/post/ria-utveckling-med-javascript"
+        	"type": "complete",
+        	"when": "2013-11-12T13:37",
+        	"phase": "phase0",
+        	"url": "http://scriptogr.am/devharis/post/ria-utveckling-med-javascript"
         },
 
 	{
@@ -25,34 +25,49 @@
 		"url": "http://scriptogr.am/devharis/post/hello-world-from-solid-bulldozer"
 	},
 	{
-            "type": "yearn",
-            "when": "2013-11-20T22:02",
-            "gear": "jadenecklace"
+        	"type": "yearn",
+        	"when": "2013-11-20T22:02",
+        	"gear": "jadenecklace"
         },
         {
-            "type": "yearn",
-            "when": "2013-11-20T22:02",
-            "gear": "baneblade"
+        	"type": "yearn",
+        	"when": "2013-11-20T22:02",
+         	"gear": "baneblade"
         },
         {
-            "type": "yearn",
-            "when": "2013-11-20T22:02",
-            "gear": "timestaff"
+        	"type": "yearn",
+        	"when": "2013-11-20T22:02",
+        	"gear": "timestaff"
         },
         {
-            "type": "yearn",
-            "when": "2013-11-20T22:02",
-            "gear": "lovepotion"
-        },
-        {
-            "type": "write",
-            "when": "2013-12-02T23:34",
-            "url": "http://scriptogr.am/devharis/post/det-gar-sakta-framat-borjar-likna-nagot"
+        	"type": "yearn",
+        	"when": "2013-11-20T22:02",
+        	"gear": "lovepotion"
         },
 	{
-            "type": "write",
-            "when": "2013-12-09T22:21",
-            "url": "http://scriptogr.am/devharis/post/andra-veckan-av-implementering-avklarad"
+		"type": "yearn",
+		"when": "2013-12-11T15:20",
+		"gear": "pathfinder"
+	},
+        {
+        	"type": "write",
+        	"when": "2013-12-02T23:34",
+         	"url": "http://scriptogr.am/devharis/post/det-gar-sakta-framat-borjar-likna-nagot"
+        },
+	{
+        	"type": "write",
+        	"when": "2013-12-09T22:20",
+        	"url": "http://scriptogr.am/devharis/post/andra-veckan-av-implementering-avklarad"
+        },
+	{
+        	"type": "write",
+        	"when": "2013-12-11T15:20",
+        	"url": "http://scriptogr.am/devharis/post/kortfattat-om-veckan-som-varit"
+        },
+	{
+        	"type": "write",
+        	"when": "2013-12-22T22:21",
+        	"url": "http://scriptogr.am/devharis/post/fjarde-och-sista-veckan-av-implementation"
         }
     ]
 }
