@@ -44,6 +44,11 @@
 			"gear": "forcefield"
 		},
 		{
+			"type": "brag",
+			"when": "2013-12-22T23:39",
+			"url": "https://github.com/zl222ag/RIA/issues/3"
+		},
+		{
 			"type": "write",
 			"when": "2013-12-01T23:55",
 			"url": "http://zl222ag.calepin.co/phase-2-forsta-veckan.html"
@@ -57,6 +62,11 @@
 			"type": "write",
 			"when": "2013-12-16T23:17",
 			"url": "http://zl222ag.calepin.co/phase-2-tredje-veckan.html"
+		},
+		{
+			"type": "write",
+			"when": "2013-12-22T23:39",
+			"url": "http://zl222ag.calepin.co/phase-2-fjarde-veckan.html"
 		}
 	]
 }
