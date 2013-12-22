@@ -59,6 +59,16 @@
             "when": "2013-12-09T20:30",
             "target": "el222hv",
             "url": "https://github.com/hanssonr/2DV407/pull/8"
+        },
+        {
+            "type": "write",
+            "when": "2013-12-22T15:04",
+            "url": "http://ria.yunsit.se/bakom-kulisserna/"
+        },
+        {
+            "type": "write",
+            "when": "2013-12-14T20:24",
+            "url": "http://ria.yunsit.se/open-save-och-allt-daremellan/"
         }
     ]
 }
