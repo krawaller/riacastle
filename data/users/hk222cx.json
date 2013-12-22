@@ -44,6 +44,11 @@
             "when": "2013-11-20T22:02",
             "gear": "lovepotion"
         },
+	{
+	    "type": "yearn",
+	    "when": "2013-12-17T21:01",
+	    "gear": "pathfinder"
+	},
         {
             "type": "write",
             "when": "2013-12-02T23:34",
@@ -53,6 +58,16 @@
             "type": "write",
             "when": "2013-12-09T22:21",
             "url": "http://scriptogr.am/devharis/post/andra-veckan-av-implementering-avklarad"
+        },
+	{
+            "type": "write",
+            "when": "2013-12-17T21:01",
+            "url": "http://scriptogr.am/devharis/post/kortfattat-om-veckan-som-varit"
+        },
+	{
+            "type": "write",
+            "when": "2013-12-22T17:34",
+            "url": "http://scriptogr.am/devharis/post/fjarde-och-sista-veckan-av-implementation"
         }
     ]
 }
