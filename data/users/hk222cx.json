@@ -63,6 +63,11 @@
             "type": "write",
             "when": "2013-12-17T21:01",
             "url": "http://scriptogr.am/devharis/post/kortfattat-om-veckan-som-varit"
+        },
+	{
+            "type": "write",
+            "when": "2013-12-22T17:34",
+            "url": "http://scriptogr.am/devharis/post/fjarde-och-sista-veckan-av-implementation"
         }
     ]
 }
