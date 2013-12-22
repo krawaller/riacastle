@@ -64,6 +64,11 @@
             		"type": "write",
             		"when": "2013-12-15T13:11",
             		"url": "http://scriptogr.am/snacky2775/post/implementation-3rd-week"
-    	}
+    		},
+		{
+			"type": "write",
+			"when": "2013-12-22T12:00",
+			"url": "http://scriptogr.am/snacky2775/post/implementation-4rth-week."
+		}
 	]
 }
