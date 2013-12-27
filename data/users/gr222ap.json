@@ -1,9 +1,9 @@
 {
 	"name": "Gustav Rosenlund",
 	"icon": "dwarves$fighter",
-	"shortdesc": "yolo",
-	"project": "none yet",
-	"research": "none yet",
+	"shortdesc": "Model View Vadå?",
+	"project": "http://gustavrosenlund.github.io/gr222ap/todoapp/index.html",
+	"research": "www",
 	"repo": "https://github.com/gustavrosenlund/gr222ap",
 	"blog": "http://scriptogr.am/gr222ap",
 	"actions": [
@@ -16,6 +16,12 @@
 			"when": "2013-11-18T15:43",
 			"phase": "phase0",
 			"url": "http://scriptogr.am/gr222ap/post/-steg-0"
+		},
+		{
+			"type": "complete",
+			"when": "2013-12-27T15:09",
+			"phase": "phase1",
+			"url": "http://scriptogr.am/gr222ap/post/steg-1-hello-world-alldeles-for-sent."
 		}
 	]
 	
