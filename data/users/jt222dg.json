@@ -2,8 +2,8 @@
 	"name": "Jesper Tullberg",
 	"icon": "monsters$giant-rat",
 	"shortdesc": "code monkey",
-	"project": "TBA",
-	"research": "TBA",
+	"project": "small canvas game",
+	"research": "unit testing with code coverage using jasmine and blanketjs",
 	"repo": "https://github.com/jt222dg/ria",
 	"blog": "http://scriptogr.am/jt222dg",
 	"actions": [
