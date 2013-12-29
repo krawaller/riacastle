@@ -69,6 +69,11 @@
             "type": "write",
             "when": "2013-12-22T20:24",
             "url": "http://ria.yunsit.se/open-save-och-allt-daremellan/"
+        },
+        {
+            "type": "write",
+            "when": "2013-12-29T20:26",
+            "url": "http://ria.yunsit.se/julkoma/"
         }
     ]
 }
