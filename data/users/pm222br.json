@@ -1,8 +1,8 @@
 {
 	"name": "Per Magnusson",
 	"icon": "nagas$fighter",
-	"shortdesc": "...",
-	"project": "...",
+	"shortdesc": "Lizard king",
+	"project": "TODO-app",
 	"research": "...",
 	"repo": "https://github.com/permag/RIA-project",
 	"blog": "http://scriptogr.am/pm222br",
@@ -22,6 +22,44 @@
 			"when": "2013-11-24T10:11",
 			"phase": "phase1",
 			"url": "http://scriptogr.am/pm222br/post/steg-1-hello-world"
+		},
+		{
+			"type": "complete",
+			"when": "2013-12-29T23:11",
+			"phase": "phase2",
+			"url": "http://scriptogr.am/pm222br/post/steg-2-v52"
+		},
+		
+		{
+			"type": "write",
+			"when": "2013-12-01T21:40",
+			"url": "http://scriptogr.am/pm222br/post/steg-2-v48"
+		},
+		{
+			"type": "write",
+			"when": "2013-12-07T22:42",
+			"url": "http://scriptogr.am/pm222br/post/steg-2-v49"
+		},
+		{
+			"type": "write",
+			"when": "2013-12-15T19:20",
+			"url": "http://scriptogr.am/pm222br/post/steg-2-v50"
+		},
+		{
+			"type": "write",
+			"when": "2013-12-22T20:22",
+			"url": "http://scriptogr.am/pm222br/post/steg-2-v51"
+		},
+
+		{
+			"type": "yearn",
+			"when": "2013-11-20T15:31",
+			"gear": "jadenecklace"
+		},
+		{
+			"type": "yearn",
+			"when": "2013-12-22T16:44",
+			"gear": "pathfinder"
 		}
 	]
 }
