@@ -2,7 +2,7 @@
     "name": "Simon Jonsson",
     "icon": "elves-wood$ranger",
     "shortdesc": "Heisenbug!",
-    "project": "TBA",
+    "project": "WookieDialer",
     "research": "TBA",
     "repo": "https://github.com/sj222eu/RIA",
     "blog": "http://scriptogr.am/sj222eu",
@@ -37,6 +37,11 @@
             "type": "write",
             "when": "2013-12-22T19:05",
             "url": "http://scriptogr.am/sj222eu/post/omstrukturering"
-        }  
+        },
+        {
+            "type": "write",
+            "when": "2013-12-29T15:04",
+            "url": "http://scriptogr.am/sj222eu/post/terkoppling"
+        }
     ]
 }
