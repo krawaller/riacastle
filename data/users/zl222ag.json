@@ -2,8 +2,8 @@
 	"name": "Zlatko Ladan",
 	"icon": "woses$wose-ancient",
 	"shortdesc": "ancient tree creature",
-	"project": "Words, letters, write them...",
-	"research": "...",
+	"project": "Words, letters, write them…",
+	"research": "…",
 	"repo": "https://github.com/zl222ag/RIA",
 	"blog": "http://zl222ag.calepin.co/",
 	"actions": [
@@ -24,6 +24,12 @@
 			"url": "http://zl222ag.calepin.co/phase1.html"
 		},
 		{
+			"type": "complete",
+			"when": "2013-12-30T15:16",
+			"phase": "phase2",
+			"url": "http://zl222ag.calepin.co/phase-2-femte-veckan.html"
+		},
+		{
 			"type": "yearn",
 			"when": "2013-11-29T13:45",
 			"gear": "baneblade"
@@ -41,6 +47,26 @@
 		{
 			"type": "yearn",
 			"when": "2013-12-11T12:21",
+			"gear": "forcefield"
+		},
+		{
+			"type": "claim",
+			"when": "2013-12-30T15:16",
+			"gear": "baneblade"
+		},
+		{
+			"type": "claim",
+			"when": "2013-12-30T15:16",
+			"gear": "jadenecklace"
+		},
+		{
+			"type": "claim",
+			"when": "2013-12-30T15:16",
+			"gear": "pathfinder"
+		},
+		{
+			"type": "claim",
+			"when": "2013-12-30T15:16",
 			"gear": "forcefield"
 		},
 		{
@@ -67,6 +93,11 @@
 			"type": "write",
 			"when": "2013-12-22T23:39",
 			"url": "http://zl222ag.calepin.co/phase-2-fjarde-veckan.html"
+		},
+		{
+			"type": "write",
+			"when": "2013-12-30T14:28",
+			"url": "http://zl222ag.calepin.co/phase-2-femte-veckan.html"
 		}
 	]
 }
