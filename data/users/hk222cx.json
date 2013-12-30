@@ -1,73 +1,88 @@
 {
     "name": "Haris Kljajic",
     "icon": "drakes$armageddon",
-    "shortdesc": "Final Boss",
-    "project": "Slaughter",
-    "research": "HAM",
-    "repo": "https://github.com/devharis/RIA-development",
+    "shortdesc": "A funny bankapp",
+    "project": "Solid-Bulldozer",
+    "research": "Cloud9",
+    "repo": "https://github.com/devharis/solid-bulldozer",
     "blog": "http://scriptogr.am/devharis/archive",
     "actions": [
         {
-         	"type": "join",
-        	"when": "2013-11-12T13:37"
+            "type": "join",
+            "when": "2013-11-12T13:37"
         },
         {
-        	"type": "complete",
-        	"when": "2013-11-12T13:37",
-        	"phase": "phase0",
-        	"url": "http://scriptogr.am/devharis/post/ria-utveckling-med-javascript"
-        },
-
-	{
-		"type": "complete",
-		"when": "2013-11-24T22:02",
-		"phase": "phase1",
-		"url": "http://scriptogr.am/devharis/post/hello-world-from-solid-bulldozer"
-	},
-	{
-        	"type": "yearn",
-        	"when": "2013-11-20T22:02",
-        	"gear": "jadenecklace"
+            "type": "complete",
+            "when": "2013-11-12T13:37",
+            "phase": "phase0",
+            "url": "http://scriptogr.am/devharis/post/ria-utveckling-med-javascript"
         },
         {
-        	"type": "yearn",
-        	"when": "2013-11-20T22:02",
-         	"gear": "baneblade"
+            "type": "complete",
+            "when": "2013-11-24T22:02",
+            "phase": "phase1",
+            "url": "http://scriptogr.am/devharis/post/hello-world-from-solid-bulldozer"
         },
         {
-        	"type": "yearn",
-        	"when": "2013-11-20T22:02",
-        	"gear": "timestaff"
+            "type": "complete",
+            "when": "2013-12-29T21:27",
+            "phase": "phase2",
+            "url": "http://devharis.github.io/solid-bulldozer/"
         },
         {
-        	"type": "yearn",
-        	"when": "2013-11-20T22:02",
-        	"gear": "lovepotion"
+            "type": "yearn",
+            "when": "2013-11-20T22:02",
+            "gear": "jadenecklace"
         },
-	{
-		"type": "yearn",
-		"when": "2013-12-11T15:20",
-		"gear": "pathfinder"
-	},
         {
-        	"type": "write",
-        	"when": "2013-12-02T23:34",
-         	"url": "http://scriptogr.am/devharis/post/det-gar-sakta-framat-borjar-likna-nagot"
+            "type": "yearn",
+            "when": "2013-11-20T22:02",
+            "gear": "baneblade"
         },
-	{
-        	"type": "write",
-        	"when": "2013-12-09T22:20",
-        	"url": "http://scriptogr.am/devharis/post/andra-veckan-av-implementering-avklarad"
+        {
+            "type": "yearn",
+            "when": "2013-11-20T22:02",
+            "gear": "timestaff"
         },
-	{
-        	"type": "write",
-        	"when": "2013-12-11T15:20",
-        	"url": "http://scriptogr.am/devharis/post/kortfattat-om-veckan-som-varit"
+        {
+            "type": "yearn",
+            "when": "2013-11-20T22:02",
+            "gear": "lovepotion"
         },
-	{
-        	"type": "write",
-        	"when": "2013-12-22T22:21",
-        	"url": "http://scriptogr.am/devharis/post/fjarde-och-sista-veckan-av-implementation"
+        {
+            "type": "yearn",
+            "when": "2013-12-11T15:20",
+            "gear": "pathfinder"
+        },
+        {
+            "type": "brag",
+            "when": "2013-12-29T21:27",
+            "url": "Solved validation bug. no issue-url"
+        },
+        {
+            "type": "write",
+            "when": "2013-12-02T23:34",
+            "url": "http://scriptogr.am/devharis/post/det-gar-sakta-framat-borjar-likna-nagot"
+        },
+        {
+            "type": "write",
+            "when": "2013-12-09T22:20",
+            "url": "http://scriptogr.am/devharis/post/andra-veckan-av-implementering-avklarad"
+        },
+        {
+            "type": "write",
+            "when": "2013-12-11T15:20",
+            "url": "http://scriptogr.am/devharis/post/kortfattat-om-veckan-som-varit"
+        },
+        {
+            "type": "write",
+            "when": "2013-12-22T22:21",
+            "url": "http://scriptogr.am/devharis/post/fjarde-och-sista-veckan-av-implementation"
+        },
+        {
+            "type": "write",
+            "when": "2013-12-29T21:27",
+            "url": "http://scriptogr.am/devharis/post/finished-the-fight"
         }
     ]
 }
