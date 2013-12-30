@@ -3,7 +3,7 @@
     "icon": "monsters$mudcrawler",
     "shortdesc": "Faith, where are you?",
     "project": "t:jls",
-    "research": "TBA",
+    "research": "pixi.js",
     "repo": "https://github.com/hanssonr/2DV407",
     "blog": "http://ria.yunsit.se",
     "actions": [
@@ -22,6 +22,12 @@
             "when": "2013-11-22T15:35",
             "phase": "phase1",
             "url": "http://ria.yunsit.se/steg1-ingen-atervando/"
+        },
+		{
+            "type": "complete",
+            "when": "2013-12-30T20:18",
+            "phase": "phase2",
+            "url": "http://ria.yunsit.se/i-backspegeln/"
         },
         {
             "type": "yearn",
