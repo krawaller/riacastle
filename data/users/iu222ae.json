@@ -22,6 +22,11 @@
 			"when": "2013-11-27T13:25",
 			"phase": "phase1",
 			"url": "http://iu222ae.calepin.co/steg-1-hello-world.html"
-		}
+		},
+		{
+            "type": "write",
+            "when": "2013-12-30T14:15",
+            "url": "http://iu222ae.calepin.co/implementation.html"
+        },
 	]
 }
