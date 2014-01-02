@@ -3,7 +3,7 @@
 	"icon": "nagas$fighter",
 	"shortdesc": "Lizard king",
 	"project": "TODO-app",
-	"research": "...",
+	"research": "AngularJS",
 	"repo": "https://github.com/permag/RIA-project",
 	"blog": "http://scriptogr.am/pm222br",
 	"actions": [
@@ -58,6 +58,17 @@
 		},
 		{
 			"type": "yearn",
+			"when": "2013-12-22T16:44",
+			"gear": "pathfinder"
+		},
+
+		{
+			"type": "claim",
+			"when": "2013-11-20T15:31",
+			"gear": "jadenecklace"
+		},
+		{
+			"type": "claim",
 			"when": "2013-12-22T16:44",
 			"gear": "pathfinder"
 		}
