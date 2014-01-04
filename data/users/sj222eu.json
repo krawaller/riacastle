@@ -48,6 +48,11 @@
             "when": "2013-12-29T15:04",
             "phase": "phase2",
             "url": "http://scriptogr.am/sj222eu/post/terkoppling"
+        },
+        {
+            "type": "write",
+            "when": "2014-01-04T21:15",
+            "url": "http://scriptogr.am/sj222eu/post/uglifyjs"
         }
     ]
 }
