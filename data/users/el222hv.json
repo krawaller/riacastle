@@ -3,7 +3,7 @@
 	"icon": "monsters$giant-mudcrawler",
 	"shortdesc": "Not all who frontend are lost. But I am",
 	"project": "NON ZERO INITIATIVE",
-	"research": "TBA",
+	"research": "Karma",
 	"repo": "https://github.com/emillindau/2DV407_App.git",
 	"blog": "http://scriptogr.am/lindau",
 	"actions": [
@@ -22,6 +22,12 @@
 			"when": "2013-11-20T22:00",
 			"phase": "phase1",
 			"url": "http://scriptogr.am/lindau/post/steg-1-pa-god-vag"
+		},
+		{
+			"type": "complete",
+			"when": "2013-01-03T23:00",
+			"phase": "phase2",
+			"url": "http://scriptogr.am/lindau/post/steg-2-applikationen"
 		},
 		{
             "type": "yearn",
