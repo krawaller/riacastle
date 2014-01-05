@@ -24,6 +24,12 @@
 			"url": "http://scriptogr.am/snacky2775/post/foodlist-hello-world"
 		},
 		{
+			"type": "complete",
+			"when": "2014-01-05T13:29",
+			"phase": "phase2",
+			"url": "http://scriptogr.am/snacky2775/post/finished-implementation"
+		},
+		{
             		"type": "yearn",
             		"when": "2013-11-22T14:00",
             		"gear": "jadenecklace"
@@ -69,6 +75,21 @@
 			"type": "write",
 			"when": "2013-12-22T12:00",
 			"url": "http://scriptogr.am/snacky2775/post/implementation-4rth-week."
+		},
+		{
+			"type": "write",
+			"when": "2014-01-05T13:28",
+			"url": "http://scriptogr.am/snacky2775/post/finished-implementation"
+		},
+		{
+			"type": "brag",
+			"when": "2014-01-05T13:29",
+			"url": "https://github.com/aw222fu/FoodApplication/issues/9"
+		},
+		{
+			"type": "brag",
+			"when": "2014-01-05T13:29",
+			"url": "https://github.com/aw222fu/FoodApplication/issues/4"
 		}
 	]
 }
