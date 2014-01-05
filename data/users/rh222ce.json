@@ -78,8 +78,18 @@
         },
         {
             "type": "write",
-            "when": "2013-12-29T20:26",
-            "url": "http://ria.yunsit.se/julkoma/"
+            "when": "2014-01-03T12:24",
+            "url": "http://ria.yunsit.se/pixi-js-under-luppen-del-1/"
+		},
+		{
+            "type": "write",
+            "when": "2014-01-04T22:48",
+            "url": "http://ria.yunsit.se/pixi-js-under-luppen-del2/"
+        },
+		{
+            "type": "write",
+            "when": "2014-01-05T19:29",
+            "url": "http://ria.yunsit.se/pixi-js-under-luppen-del-3/"
         }
     ]
 }
