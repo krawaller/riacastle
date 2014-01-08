@@ -24,6 +24,22 @@
    "phase": "phase1",
    "url": "http://scriptogr.am/jh222jg/post/steg-1"
   }
+  {
+   "type": "complete",
+   "when": "2014-01-04T15:00",
+   "phase": "phase2",
+   "url": "http://scriptogr.am/jh222jg"
+  },
+  {
+   "type": "yearn",
+   "when": "2014-1-8T12:00",
+   "gear": "baneblade"
+  }
+  {
+   "type": "yearn",
+   "when": "2014-1-8T12:00",
+   "gear": "pathfinder bow"
+  }
  ]
 }
 
