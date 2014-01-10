@@ -3,7 +3,7 @@
 	"icon": "monsters$seaserpent",
 	"shortdesc": "the newbie",
 	"project": "Watch it later",
-	"research": "tba",
+	"research": "jquery",
 	"repo": "https://github.com/EdinSkeja/2DV407_Project.git",
 	"blog": "http://es222kj.calepin.co/",
 	"actions": [
@@ -57,7 +57,28 @@
 			"type": "write",
 			"when": "2013-12-24T18:00",
 			"url": "http://es222kj.calepin.co/steg-2-implementering-4e-inlagget.html"
-		}
+		},
+		{
+			"type": "write",
+			"when": "2014-01-08T14:00",
+			"url": "http://es222kj.calepin.co/steg-2-och-fordjupningsval-steg-3.html"
+		},
+		{
+			"type": "write",
+			"when": "2014-01-10T20:30",
+			"url": "http://es222kj.calepin.co/steg-2-avslutning.html"
+		},
+		{
+            "type": "complete",
+            "when": "2014-01-10T20:30",
+            "phase": "phase2",
+            "url": "http://es222kj.calepin.co/steg-2-avslutning.html"
+        },
+        {
+            "type": "claim",
+            "when": "2014-01-10T20:30",
+            "gear": "baneblade"
+        }
 	]
 }
 
