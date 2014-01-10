@@ -2,8 +2,8 @@
 	"name": "Albin Wahlstrand",
 	"icon": "monsters$skeletal-dragon",
 	"shortdesc": "Noob",
-	"project": "TBC",
-	"research": "TBC",
+	"project": "FoodApplication",
+	"research": "Jade",
 	"repo": "https://github.com/snacky2775/ria-utv",
 	"blog": "http://scriptogr.am/snacky2775/",
 	"actions": [
@@ -30,10 +30,22 @@
 			"url": "http://scriptogr.am/snacky2775/post/finished-implementation"
 		},
 		{
+			"type": "complete",
+			"when": "2014-01-10T20:29",
+			"phase": "phase3",
+			"url": "http://scriptogr.am/snacky2775/post/jade-template-engine"
+		},
+		{
             		"type": "yearn",
             		"when": "2013-11-22T14:00",
             		"gear": "jadenecklace"
-		},
+		},         
+		{
+            		"type": "claim",
+            		"when": "2014-01-10T20:29",
+            		"gear": "jadenecklace"
+        	},
+
         	{
             		"type": "write",
             		"when": "2013-12-01T15:42",
@@ -60,12 +72,22 @@
             		"type": "yearn",
             		"when": "2013-12-15T13:10",
             		"gear": "baneblade"
-		},
+		},         
+		{
+            		"type": "claim",
+            		"when": "2014-01-10T20:29",
+            		"gear": "baneblade"
+        	},
 		{
             		"type": "yearn",
             		"when": "2013-12-15T13:10",
             		"gear": "pathfinder"
-		},
+		},       
+		{
+            		"type": "claim",
+            		"when": "2014-01-10T20:29",
+            		"gear": "pathfinder"
+        	},
 		{
             		"type": "write",
             		"when": "2013-12-15T13:11",
