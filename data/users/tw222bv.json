@@ -30,6 +30,12 @@
             "url": "http://scriptogr.am/tw222bv/post/ria-6e-och-sista-blogg-inlagget"
         },
         {
+            "type": "complete",
+            "when": "2014-01-10T16:41",
+            "phase": "phase3",
+            "url": "http://scriptogr.am/tw222bv/post/ria-fordjupning-bootstrap"
+        },
+        {
             "type": "yearn",
             "when": "2013-11-22T14:00",
             "gear": "hammer"
