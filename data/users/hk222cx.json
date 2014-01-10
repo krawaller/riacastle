@@ -54,6 +54,26 @@
             "when": "2013-12-11T15:20",
             "gear": "pathfinder"
         },
+	{
+		"type": "claim",
+		"when": "2013-12-29T21:27",
+		"gear": "jadenecklace"
+	},
+	{
+		"type": "claim",
+		"when": "2013-12-29T21:27",
+		"gear": "pathfinder"
+	},
+	{
+		"type": "claim",
+		"when": "2013-12-29T21:27",
+		"gear": "timestaff"
+	},
+	{
+		"type": "claim",
+		"when": "2013-12-29T21:27",
+		"gear": "baneblade"
+	},
         {
             "type": "brag",
             "when": "2013-12-29T21:27",
