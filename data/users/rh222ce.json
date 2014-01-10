@@ -30,6 +30,12 @@
             "url": "http://ria.yunsit.se/i-backspegeln/"
         },
         {
+            "type": "complete",
+            "when": "2014-01-10T19:52",
+            "phase": "phase3",
+            "url": "http://ria.yunsit.se/att-undersoka-en-undersokning/"
+        },
+        {
             "type": "yearn",
             "when": "2013-11-22T15:35",
             "gear": "baneblade"
@@ -38,6 +44,11 @@
             "type": "yearn",
             "when": "2013-11-22T15:35",
             "gear": "jadenecklace"
+        },
+        {
+            "type": "claim",
+            "when": "2014-01-10T19:53",
+            "gear": "baneblade"
         },
         {
             "type": "write",
