@@ -29,6 +29,12 @@
 			"phase": "phase2",
 			"url": "http://scriptogr.am/pm222br/post/steg-2-v52"
 		},
+		{
+			"type": "complete",
+			"when": "2014-01-11T14:00",
+			"phase": "phase3",
+			"url": "http://scriptogr.am/pm222br/post/steg-3-kommentering-av-fordjupningar"
+		},
 		
 		{
 			"type": "write",
