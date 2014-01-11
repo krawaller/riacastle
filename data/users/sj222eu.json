@@ -53,6 +53,12 @@
             "type": "write",
             "when": "2014-01-04T21:15",
             "url": "http://scriptogr.am/sj222eu/post/uglifyjs"
+        },
+        {
+            "type": "complete",
+            "when": "2014-01-11T20:14",
+            "phase": "phase3",
+            "url": "http://scriptogr.am/sj222eu/post/tankar-om-andras-fordjupningar"
         }
     ]
 }
