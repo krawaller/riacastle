@@ -3,7 +3,7 @@
  "icon": "dwarves$fighter",
  "shortdesc": "-.-",
  "project": "TODO",
- "research": "none yet",
+ "research": "Testing Karma in Webstorm",
  "repo": "https://github.com/jh222jg/RIA",
  "blog": "http://scriptogr.am/jh222jg",
  "actions": 
@@ -23,7 +23,36 @@
    "when": "2013-11-28T22:00",
    "phase": "phase1",
    "url": "http://scriptogr.am/jh222jg/post/steg-1"
+  },
+  {
+   "type": "complete",
+   "when": "2014-01-04T18:00",
+   "phase": "phase2",
+   "url": "http://scriptogr.am/jh222jg/post/steg-2"
+  },
+  {
+   "type": "complete",
+   "when": "2014-01-09T17:00",
+   "phase": "phase3",
+   "url": "http://scriptogr.am/jh222jg/post/steg-3"
+  },
+  {
+   "type": "complete",
+   "when": "2014-01-11T20:00",
+   "phase": "phase4",
+   "url": "http://scriptogr.am/jh222jg/post/utvardering-av-kursen"
+  },
+  {
+   "type": "yearn",
+   "when": "2014-01-08T20:00",
+   "gear": "baneblade",
+  },
+  {
+   "type": "yearn",
+   "when": "2014-01-08T20:00",
+   "gear": "pathfinder",
   }
+  
  ]
 }
 
