@@ -30,6 +30,12 @@
 			"url": "http://zl222ag.calepin.co/phase-2-femte-veckan.html"
 		},
 		{
+			"type": "complete",
+			"when": "2014-01-10T23:59",
+			"phase": "phase3",
+			"url": "http://zl222ag.calepin.co/phase1.html"
+		},
+		{
 			"type": "yearn",
 			"when": "2013-11-29T13:45",
 			"gear": "baneblade"
@@ -98,6 +104,16 @@
 			"type": "write",
 			"when": "2013-12-30T14:28",
 			"url": "http://zl222ag.calepin.co/phase-2-femte-veckan.html"
+		},
+		{
+			"type": "write",
+			"when": "2014-01-10T23:58",
+			"url": "http://zl222ag.calepin.co/phase-3-forsta-veckan.html"
+		},
+		{
+			"type": "write",
+			"when": "2014-01-10T23:59",
+			"url": "http://zl222ag.calepin.co/phase-3-andra-veckan.html"
 		}
 	]
 }
