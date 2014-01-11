@@ -41,7 +41,18 @@
    "when": "2014-01-11T20:00",
    "phase": "phase4",
    "url": "http://scriptogr.am/jh222jg/post/utvardering-av-kursen"
+  },
+  {
+   "type": "yearn",
+   "when": "2014-01-08T20:00",
+   "gear": "baneblade",
+  },
+  {
+   "type": "yearn",
+   "when": "2014-01-08T20:00",
+   "gear": "pathfinder",
   }
+  
  ]
 }
 
