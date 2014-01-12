@@ -28,6 +28,16 @@
 			"when": "2014-01-03T09:19",
 			"phase": "phase2",
 			"url": "http://scriptogr.am/jt222dg/post/steg-2"
-		}
+		},
+		{
+            "type": "write",
+            "when": "2014-01-12T04:15",
+            "url": "http://scriptogr.am/jt222dg/post/steg-3-fordjupning"
+        },
+        {
+            "type": "write",
+            "when": "2014-01-12T04:15",
+            "url": "http://scriptogr.am/jt222dg/post/unit-testing-med-jasmine-och-blanket-tutorial"
+        },
 	]
 }
