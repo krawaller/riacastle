@@ -29,6 +29,18 @@
             "phase": "phase2",
             "url": "http://devharis.github.io/solid-bulldozer/"
         },
+	{
+		"type": "complete",
+		"when": "2014-01-12T20:48",
+		"phase": "phase3",
+		"url": "http://scriptogr.am/devharis/post/kommentarsinlagg"
+	},
+	{
+		"type": "complete",
+		"when": "2014-01-12T20:48",
+		"phase": "phase4",
+		"url": "http://scriptogr.am/devharis/post/utvardering"
+	},
         {
             "type": "yearn",
             "when": "2013-11-20T22:02",
@@ -103,6 +115,11 @@
             "type": "write",
             "when": "2013-12-29T21:27",
             "url": "http://scriptogr.am/devharis/post/finished-the-fight"
+        },
+	{
+            "type": "write",
+            "when": "2014-01-07T12:21",
+            "url": "http://scriptogr.am/devharis/post/fordjupning-cloud9"
         }
     ]
 }
