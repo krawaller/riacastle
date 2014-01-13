@@ -78,6 +78,33 @@
             "type": "claim",
             "when": "2014-01-10T20:30",
             "gear": "baneblade"
+        },
+		{
+			"type": "write",
+			"when": "2014-01-12T12:00",
+			"url": "http://es222kj.calepin.co/steg-3-jquery.html"
+		},
+		{
+			"type": "write",
+			"when": "2014-01-13T14:00",
+			"url": "http://es222kj.calepin.co/steg-3-kommentera-andras-fordjupningar.html"
+		},
+		{
+            "type": "complete",
+            "when": "2014-01-13T14:00",
+            "phase": "phase3",
+            "url": "http://es222kj.calepin.co/"
+        },
+		{
+			"type": "write",
+			"when": "2014-01-13T15:30",
+			"url": "http://es222kj.calepin.co/steg-4-utvardering.html"
+		},
+		{
+            "type": "complete",
+            "when": "2014-01-13T15:30",
+            "phase": "phase4",
+            "url": "http://es222kj.calepin.co/steg-4-utvardering.html"
         }
 	]
 }
