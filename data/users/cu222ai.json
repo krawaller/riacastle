@@ -1,22 +1,44 @@
 {
-	"name": "Christian Ulf",
-	"icon": "elves-wood$sylph",
-	"shortdesc": "tba",
-	"project": "...",
-	"research": "...",
-	"repo": "https://github.com/cu222ai/JS-RIA",
-	"blog": "http://scriptogr.am/culf",
-	"actions": [
-		{
-			"type": "join",
-			"when": "2013-11-12T13:45"
-		},
-		{
-			"type": "complete",
-			"when": "2013-11-12T15:46",
-			"phase": "phase0",
-			"url": "http://scriptogr.am/culf/post/presentation-christian-ulf-ria-js"
-		}
-		
-	]
+  "name": "Christian Ulf",
+  "icon": "elves-wood$sylph",
+  "shortdesc": "ToDo-app",
+  "project": "...",
+  "research": "...",
+  "repo": "https://github.com/cu222ai/ChoreThing2",
+  "blog": "http://scriptogr.am/culf",
+  "actions": [
+    {
+      "type": "join",
+      "when": "2013-11-12T13:45"
+    },
+    {
+      "type": "complete",
+      "when": "2013-11-12T15:46",
+      "phase": "phase0",
+      "url": "http://scriptogr.am/culf/post/presentation-christian-ulf-ria-js"
+    },
+    {
+      "type": "complete",
+      "when": "2013-11-20T16:00",
+      "phase": "phase1",
+      "url": "http://scriptogr.am/culf/post/presentation-christian-ulf-ria-js"
+    },
+    {
+      "type": "yearn",
+      "when": "2013-11-20T16:00",
+      "gear": "pathfinder"
+    },
+    {
+      "type": "yearn",
+      "when": "2013-11-20T16:00",
+      "gear": "jadenecklace"
+    },
+    {
+      "type": "complete",
+      "when": "2013-01-02T09:42",
+      "phase": "phase2",
+      "url": "http://scriptogr.am/culf/post/snart-fardig"
+    }
+
+  ]
 }
