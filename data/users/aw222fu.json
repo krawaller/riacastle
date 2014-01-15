@@ -19,6 +19,12 @@
 		},
 		{
 			"type": "complete",
+			"when": "2014-01-15T16:57",
+			"phase": "phase4",
+			"url": "http://scriptogr.am/snacky2775/post/evaluation-of-2dv407"
+		},
+		{
+			"type": "complete",
 			"when": "2013-11-22T15:27",
 			"phase": "phase1",
 			"url": "http://scriptogr.am/snacky2775/post/foodlist-hello-world"
@@ -45,6 +51,16 @@
             		"when": "2014-01-10T20:29",
             		"gear": "jadenecklace"
         	},
+		{
+            		"type": "yearn",
+            		"when": "2014-01-15T17:00",
+            		"gear": "lovepotion"
+		},         
+		{
+            		"type": "claim",
+            		"when": "2014-01-15T17:00",
+            		"gear": "lovepotion"
+        	},
 
         	{
             		"type": "write",
@@ -67,6 +83,18 @@
             		"when": "2013-12-15T13:09",
 			"target": "tw222bv",
             		"url": "https://github.com/aw222fu/FoodApplication/pull/7"
+        	},
+		{
+            		"type": "thank",
+            		"when": "2014-01-15T17:01",
+			"target": "hk222cx",
+            		"url": "https://github.com/aw222fu/FoodApplication/pull/11"
+        	},		
+		{
+            		"type": "thank",
+            		"when": "2014-01-15T17:01",
+			"target": "hk222cx",
+            		"url": "https://github.com/aw222fu/FoodApplication/pull/12"
         	},
 		{
             		"type": "yearn",
