@@ -1,23 +1,23 @@
 {
 	"phase0": {
 		"name": "preparation phase",
-		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/misc/schedule-dawn"
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/2709197594157a4776a12c3ff729e2401605f5c7/data/core/images/misc/time-schedules/default/schedule-dawn"
 	},
 	"phase1": {
 		"name": "first phase",
-		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/misc/schedule-morning"
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/2709197594157a4776a12c3ff729e2401605f5c7/data/core/images/misc/time-schedules/default/schedule-morning"
 	},
 	"phase2": {
 		"name": "second phase",
-		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/misc/schedule-afternoon"
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/2709197594157a4776a12c3ff729e2401605f5c7/data/core/images/misc/time-schedules/default/schedule-afternoon"
 	},
 	"phase3": {
 		"name": "third phase",
-		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/misc/schedule-dusk"
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/2709197594157a4776a12c3ff729e2401605f5c7/data/core/images/misc/time-schedules/default/schedule-dusk"
 	},
 	"phase4": {
 		"name": "fourth phase",
-		"icon": "https://raw.github.com/wesnoth/wesnoth-old/master/data/core/images/misc/schedule-firstwatch"
+		"icon": "https://raw.github.com/wesnoth/wesnoth-old/2709197594157a4776a12c3ff729e2401605f5c7/data/core/images/misc/time-schedules/default/schedule-firstwatch"
 	}
 }
 
