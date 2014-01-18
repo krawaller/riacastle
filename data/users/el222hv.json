@@ -44,6 +44,18 @@
         	"when": "2013-12-02T23:42",
         	"url": "http://scriptogr.am/lindau/post/karma-i-dubbel-bemarkelse"
         }
+        {
+            "type": "complete",
+            "when": "2014-01-18T23:00",
+            "phase": "phase3",
+            "url": "http://scriptogr.am/lindau/post/karma"
+        },
+        {
+            "type": "complete",
+            "when": "2014-01-18T23:00",
+            "phase": "phase4",
+            "url": "http://scriptogr.am/lindau/post/the-end"
+        }
 	]
 }
 
