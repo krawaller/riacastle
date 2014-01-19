@@ -36,6 +36,12 @@
             "url": "http://ria.yunsit.se/att-undersoka-en-undersokning/"
         },
         {
+            "type": "complete",
+            "when": "2014-01-19T23:09",
+            "phase": "phase4",
+            "url": "http://ria.yunsit.se/ett-sista-farval/"
+        },
+        {
             "type": "yearn",
             "when": "2013-11-22T15:35",
             "gear": "baneblade"
