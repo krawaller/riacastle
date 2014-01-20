@@ -2,8 +2,8 @@
     "name": "Johan Wibjer",
     "icon": "goblins$knight",
     "shortdesc": "Who invented the cherry??",
-    "project": "TBA",
-    "research": "TBA",
+    "project": "http://wibjer.github.io/-2DV407/",
+    "research": "MVC",
     "repo": "https://github.com/wibjer/-2DV407.git",
     "blog": "http://jw222ef.calepin.co/",
     "actions": [
@@ -17,11 +17,20 @@
             "phase": "phase0",
             "url": "http://jw222ef.calepin.co/steg-0-kratta-manegen.html"
         },
-        
+        {
+            "type": "write",
+            "when": "2013-11-13T16:39",
+            "url": "http://jw222ef.calepin.co/steg-0-kratta-manegen.html"
+        },
         {
             "type": "complete",
             "when": "2013-11-25T14:34",
             "phase": "phase1",
+            "url": "http://jw222ef.calepin.co/steg-1-hej-varld.html"
+        },
+        {
+            "type": "write",
+            "when": "2013-11-25T14:34",
             "url": "http://jw222ef.calepin.co/steg-1-hej-varld.html"
         },
         
@@ -30,6 +39,42 @@
             "when": "2013-11-25T14:34",
             "gear": "baneblade"
           
+        },
+        {
+            "type": "write",
+            "when": "2013-12-04T13:00",
+            "url": "http://jw222ef.calepin.co/steg-2-inmplemintesamyckettering.html"
+        },
+        {
+            "type": "write",
+            "when": "2013-12-29T13:00",
+            "url": "http://jw222ef.calepin.co/steg-2-marry-implementering.html"
+        },
+        {
+            "type": "write",
+            "when": "2014-01-04T13:00",
+            "url": "http://jw222ef.calepin.co/steg-2-delete2complete.html"
+        },
+        {
+            "type": "write",
+            "when": "2014-01-08T13:00",
+            "url": "http://jw222ef.calepin.co/steg-2-edit_sad2happy.html"
+        },
+        {
+            "type": "write",
+            "when": "2014-01-13T13:00",
+            "url": "http://jw222ef.calepin.co/steg-2-router2done.html"
+        },
+        {
+            "type": "complete",
+            "when": "2014-01-10T20:30",
+            "phase": "phase2",
+            "url": "http://es222kj.calepin.co/steg-2-avslutning.html"
+        },
+        {
+            "type": "claim",
+            "when": "2014-01-10T20:30",
+            "gear": "baneblade"
         }
     ]
 }
