@@ -73,6 +73,41 @@
             "type": "claim",
             "when": "2014-01-10T20:30",
             "gear": "baneblade"
+        },
+        {
+            "type": "complete",
+            "when": "2014-01-20T14:34",
+            "phase": "phase3",
+            "url": "http://jw222ef.calepin.co/steg-3-model-view-controller.html"
+        },
+        {
+            "type": "complete",
+            "when": "2014-01-21T14:34",
+            "phase": "phase4",
+            "url": "http://jw222ef.calepin.co/steg-4-utvardering.html"
+        },
+        {
+            "type": "write",
+            "when": "2014-01-20T13:00",
+            "url": "http://jw222ef.calepin.co/steg-3-kommentarer.html"
+        },
+        {
+            "type": "thank",
+            "when": "2014-01-18T15:52",
+            "target": "el222hv",
+            "url": "https://github.com/wibjer/-2DV407/commit/d5aacd0c1c7addd6406102b7cd326ecd841a5c06"
+        },
+        {
+            "type": "thank",
+            "when": "2014-01-07T15:52",
+            "target": "es222kj",
+            "url": "https://github.com/wibjer/-2DV407/commit/e0e22c597f05e24f75eb9a78ac058cb9b3f6f013"
+        },
+                {
+            "type": "thank",
+            "when": "2013-12-17T15:52",
+            "target": "rh222ce",
+            "url": "https://github.com/wibjer/-2DV407/commit/980f636dc69c5fad5398674569c970f903c17845"
         }
     ]
 }
